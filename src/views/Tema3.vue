@@ -38,7 +38,7 @@
               |𝑏: es la intersección con el eje Y.
         p.pe-md-4(data-aos="fade-right") La regresión lineal puede ser simple o múltiple, la primera se caracteriza por tener una variable independiente, contrario a la regresión múltiple que se caracteriza por tener más de una variable independiente.
         p.mb-0.pe-lg-4(data-aos="fade-right") Volviendo al ejemplo propuesto se utilizará la librería <em><b style="background-color: #E1E2FC">scikit-learn,</b></em> que es una librería para el aprendizaje automático. En el siguiente recurso se pueden identificar los módulos a implementar y los pasos a seguir:
-      img.mx-auto.mx-md-0.col-md-6.col-xl-5.mb-4.mb-md-auto.order-1.order-md-2(src="@/assets/curso/temas/tema3/img-2.png" style="max-width: 492px")
+      img.mx-auto.mx-md-0.col-md-6.col-xl-5.mb-4.mb-md-auto.order-1.order-md-2(src="@/assets/curso/temas/tema3/img-2.png" style="max-width: 492px" data-aos="fade-left")
     
     .tarjeta.p-5(style="background-color: #EBECFF")
       LineaTiempoC.color-acento-contenido(text-small)
@@ -62,7 +62,7 @@
                   |from sklearn.model_selection import train_test_split 
                   br                  
                   |from sklearn.metrics import mean_squared_error, r2_score
-          img.mx-auto.col-lg-4.order-1.order-lg-2(src="@/assets/curso/temas/tema3/img-3.svg" style="max-width: 290px")
+          img.mx-auto.col-lg-4.order-1.order-lg-2(src="@/assets/curso/temas/tema3/img-3.svg" style="max-width: 290px" data-aos="fade-left")
 
         .col-lg-11.mx-auto.d-flex.flex-wrap(titulo="Paso 2")
           .col-lg-8.pe-lg-4.order-2.order-lg-1
@@ -120,13 +120,141 @@
           .col-lg-8.pe-lg-4.order-2.order-lg-1
             p La raíz cuadrada del coeficiente de determinación es R y puede variar entre -1 y 1, conocido como coeficiente de correlación de Pearson. Este coeficiente mide el grado de asociación lineal entre dos variables X y Y, el signo indica la dirección de la correlación y el valor numérico, el grado de correlación.
           img.mx-auto.col-lg-4.order-1.order-lg-2(src="@/assets/curso/temas/tema3/img-4.svg" style="max-width: 290px")
+    
+    Separador
+    #t_3_2.titulo-segundo.color-acento-contenido
+      h2 3.2  Algoritmo de clasificación con Python
+
+    p La construcción de los modelos de clasificación es una de las tareas más usadas en el aprendizaje automático, cuando los datos de los cuales se va a aprender cuentan con atributos de entrada y estos se encuentran relacionados con valores discretos, clases o etiquetas.
+
+    .d-flex.flex-wrap.mb-5
+      .col-lg-8.order-2.order-lg-1.pe-lg-4.me-xl-auto(data-aos="fade-right")
+        .d-flex.flex-wrap.mb-4
+          img.mx-auto.d-none.d-md-flex.mb-md-auto(src="@/assets/curso/temas/tema3/img-5.svg" style="max-width: 190px")
+          p.ps-md-4.col-md Las tareas para resolver un problema de clasificación involucra un conjunto de datos de entrenamiento, en los cuales se tienen puntos de datos etiquetados con sus categorías o clases correctas. Los modelos de clasificación más usados son la regresión logística, Naive Bayes, los soportes de máquinas vectoriales, los modelos no paramétricos como k vecinos más cercanos, los métodos de clasificación por medio de árboles de decisión y las redes neuronales.
+        p.mb-0.p-3(style="background-color: #FFFAE3") Las aplicaciones de los modelos de clasificación son infinitas. Algunos ejemplos son el reconocimiento de imágenes, el reconocimiento de voz, los juegos de computador, los carros autónomos, la predicción de enfermedades, las predicciones financieras como la bolsa de valores, la identificación de defectos de fabricación, la identificación de posibles fraudes bancarios, etc.
+      img.mx-auto.mb-4.mb-lg-auto.col-lg-4.order-1.order-lg-2(src="@/assets/curso/temas/tema3/img-6.png" style="max-width: 400px" data-aos="fade-left")
+
+    Separador
+    #t_3_3.titulo-segundo.color-acento-contenido
+      h2 3.3  Árboles de clasificación con Python
+    
+    .d-flex.flex-wrap.mb-5
+      img.mx-auto.mb-4.mb-lg-auto.col-lg-4(src="@/assets/curso/temas/tema3/img-7.svg" style="max-width: 400px" data-aos="fade-left")
+      .col-lg-8.ps-lg-4.me-xl-auto(data-aos="fade-right")
+        p Son muy usados en la planeación, la estadística y el aprendizaje automático, usa una estructura de árbol de condiciones y las consecuencias para evaluar posibles eventos de un problema en particular.
+
+        p Cada cuadrado es un nodo, los nodos de más abajo se denominan las hojas del árbol, imaginando un árbol al revés. Para iniciar las predicciones se comienza desde la raíz del árbol, es decir, desde el nodo superior; cada nodo es evaluado y saltando al siguiente nodo, según la decisión correcta.
+
+        p Un árbol de decisiones se usa, entonces, para predecir la clase o el valor de la variable dependiente, aprendiendo de las reglas del árbol de decisiones encontradas con los datos de entrenamiento.
+
+        p A continuación se explica cómo aplicar el árbol de decisiones al ejercicio planteado.
+
+    .tarjeta.p-5(style="background-color: #EBECFF")
+      LineaTiempoC.color-acento-contenido(text-small)
+        .col-lg-11.mx-auto.d-flex.flex-wrap(titulo="Paso")
+          .col-lg-8.pe-lg-4.order-2.order-lg-1
+            p Para aplicar el árbol de decisión al ejercicio que se ha venido trabajando, se observa que se podría tomar decisiones de clasificación usando las variables bill_length_mm y bill_depth_mm para clasificar una especie, entonces, se remueve del dataset las demás características. 
+
+            p.fw-bold El código que se debe utilizar en este caso es:
+            .d-flex.pe-md-3.mb-3
+              .tarjeta.px-4.py-2(style="background-color: #24135A;" data-aos="fade-left")
+                p.mb-0.text-white datosPicos = df_pinguinos.drop ([‘island’, ‘flipper_length_mm’, ‘body_mass_g’, ‘sex’], axis = 1) pairPlotPicos = sns.pairplot ( datosPicos, hue=‘species’) pairPlotPicos.fig.set_size_inches(9,6.5)
+          img.mx-auto.col-lg-4.order-1.order-lg-2(src="@/assets/curso/temas/tema3/lt-3.svg" style="max-width: 315px" data-aos="fade-left")
+
+        .col-lg-11.mx-auto.d-flex.flex-wrap(titulo="Paso")
+          .col-lg-7.pe-lg-4.order-2.order-lg-1
+            p El gráfico muestra que la especie Adelie puede ser identificada con la longitud del pico (bill_length_mm) y para distinguir entre chinstrap y gentoo se puede realizar con la característica de profundidad del pico (bill_depth_mm).
+          img.mx-auto.col-lg-5.order-1.order-lg-2(src="@/assets/curso/temas/tema3/lt-1.png" style="max-width: 400px" data-aos="fade-left")
+
+        .col-lg-11.mx-auto.d-flex.flex-wrap(titulo="Paso")
+          .col-lg-8.pe-lg-4.order-2.order-lg-1
+            p Una vez identificadas las características que más contribuyen a una clasificación de una especie, entonces, se definen las variables predictoras en una variable X y los datos con los resultados o etiquetas en la variable Y.
+            .d-flex.pe-md-3.mb-3
+              .tarjeta.px-4.py-2(style="background-color: #24135A;" data-aos="fade-left")
+                p.mb-0.text-white Donde: 
+                  br
+                  |X = df_pinguinos[[‘bill_length_mm’, ‘bill_depth_mm’]]
+                  br
+                  |Y = df_pinguinos[‘species’]
+          img.mx-auto.col-lg-4.order-1.order-lg-2(src="@/assets/curso/temas/tema3/lt-2.svg" style="max-width: 315px" data-aos="fade-left")
+        
+        .col-lg-11.mx-auto.d-flex.flex-wrap(titulo="Paso")
+          .col-lg-8.pe-lg-4.order-2.order-lg-1
+            p Una vez se tienen separadas las variables predictoras y las variables etiquetadas se procede a separar los datos de entrenamiento y prueba con la instrucción train_test_split, con parámetro X, Y y test_size=0.2, que significa que se tomará el 20 % de los datos para el set de pruebas, por tanto el 80 % se tomarán para el set de entrenamiento.
+            p.fw-bold Esto se hace a partir del siguiente código:
+            .d-flex.pe-md-3.mb-3
+              .tarjeta.px-4.py-2(style="background-color: #24135A;" data-aos="fade-left")
+                p.mb-0.text-white X_entrenamiento, X_prueba, Y_entrenamiento, Y_prueba = train_test_split(X, Y, test_size = 0.2) print(‘Los datos de entrenamiento son {} y los datos de prueba son {} ‘.format(X_entrenamiento.shape[0], X_prueba.shape[0])) Los datos de entrenamiento son 266 y los datos de prueba son 6
+          img.mx-auto.col-lg-4.order-1.order-lg-2(src="@/assets/curso/temas/tema3/lt-3.svg" style="max-width: 315px" data-aos="fade-left")
+        
+        .col-lg-11.mx-auto.d-flex.flex-wrap(titulo="Paso")
+          .col-lg-8.pe-lg-4.order-2.order-lg-1
+            p Posteriormente, se define el algoritmo de árboles de decisión con la función #[b DecisionTreeClassifier], luego se entrena con los datos de entrenamiento X y Y. Con la función fit se realiza una predicción y se calcula una predicción con los datos de prueba fijados.
+
+            p El código a utilizar es:
+            .d-flex.pe-md-3.mb-3
+              .tarjeta.px-4.py-2(style="background-color: #24135A;" data-aos="fade-left")
+                p.mb-0.text-white from sklearn.tree import DecisionTreeClassifier
+                  br
+                  |from sklearn import tree algoritmoTree = DecisionTreeClassifier() algoritmoTree.fit (X_entrenamiento, Y_entrenamiento) Y_predTree = algoritmoTree.predict (X_prueba) print(‘La Precisión del algoritmo de árboles de decisión es: {}’.format(algoritmoTree.score(X_entrenamiento, Y_entrenamiento))) 
+                  br
+                  br
+                  |La precisión del algoritmo de árboles de decisión es 1.0.
+          img.mx-auto.col-lg-4.order-1.order-lg-2(src="@/assets/curso/temas/tema3/lt-3.svg" style="max-width: 315px" data-aos="fade-left")
+        
+        .col-lg-11.mx-auto.d-flex.flex-wrap(titulo="Paso")
+          .col-lg-8.pe-lg-4.order-2.order-lg-1
+            p Se observa que el algoritmo de clasificación con árboles de decisión tiene una precisión del 100 %.
+              br
+              |Para realizar una predicción con árboles de clasificación con Python, se hace la suposición que se encuentra un pingüino con los siguientes datos:
+            .tarjeta.px-4.py-2(style="background-color: #24135A;" data-aos="fade-left")
+              p.mb-0.text-white bill_length_mm = 50 mm
+                br
+                |'bill_depth_mm' = 21 mm
+                br
+                |El código a utilizar es:
+                br
+                |algoritmoTree.predict([[50,21]])
+                br
+                |resultado:
+                br
+                |array(['Chinstrap'], dtype=object)
+          img.mx-auto.col-lg-4.order-1.order-lg-2(src="@/assets/curso/temas/tema3/lt-3.svg" style="max-width: 315px" data-aos="fade-left")
+
+        .col-lg-11.mx-auto.d-flex.flex-wrap(titulo="Paso")
+          .col-lg-8.pe-lg-4.order-2.order-lg-1
+            p Si se desea observar el árbol de decisión en pleno se puede hacer de varias formas, una de las cuales es importando la librería #[b export_graphviz], se definen las variables características y las variables label, de esta manera:
+            .d-flex.pe-md-3.mb-3
+              .tarjeta.px-4.py-2(style="background-color: #24135A;" data-aos="fade-left")
+                p.mb-0.text-white from sklearn.tree import DecisionTreeClassifier, export_graphviz import graphviz
+          img.mx-auto.col-lg-4.order-1.order-lg-2(src="@/assets/curso/temas/tema3/lt-4.svg" style="max-width: 315px" data-aos="fade-left")
+        
+        .col-lg-11.mx-auto.d-flex.flex-wrap(titulo="Paso")
+          .col-lg-8.pe-lg-4.order-2.order-lg-1
+            p El código fuente a continuación dibuja el árbol de decisión para mejor entendimiento del investigador y se basa en Scikit learn usando la libreria #[b tree.export.graphviz.]
+            p El código es el siguiente:
+            .d-flex.pe-md-3.mb-3
+              .tarjeta.px-4.py-2(style="background-color: #24135A;" data-aos="fade-left")
+                p.mb-0.text-white feature_names = [‘bill_length_mm’,’bill_depth_mm’] class_names = [‘Adelie’, ‘Chinstrap’,’Gentoo’] datos = tree.export_graphviz(algoritmoTree,out_file=None, feature_names=feature_names, class_names=class_names,filled=True, rounded=True, special_characters=True) graph = graphviz.Source(datos) graph
+          img.mx-auto.col-lg-4.order-1.order-lg-2(src="@/assets/curso/temas/tema3/lt-5.svg" style="max-width: 315px" data-aos="fade-left")
+        
+        .col-lg-11.mx-auto.d-flex.flex-wrap(titulo="Paso")
+          .col-lg-8.pe-lg-4.order-2.order-lg-1
+            p Se puede observar en el árbol generado una primera comparación inicial de bill_length_mm <= 42.55 o bill_length_mm > 42.55 y una primera rama con bill_depth_mm <= 15.1 si la primera condición es verdadera. Luego, se observa en la rama siguiente un primer resultado. Si cumple las dos condiciones anteriores, la especie se clasificó como gentoo y así sucesivamente. 
+            p El algoritmo clasificó en forma automática estas condiciones de la forma más eficiente posible. Se puede observar un árbol resultante bastante complejo pero con #[b scikit-learn] la generación es bastante sencilla.
+          .col-lg-4.order-1.order-lg-2.text-center
+            img.mx-auto.mb-2(src="@/assets/curso/temas/tema3/lt-6.svg" style="max-width: 315px" data-aos="fade-left")
+            a(@click="modal1 = true") Ampliar imagen
+    ModalA(:abrir-modal.sync="modal1")
+      img.mx-auto(src="@/assets/curso/temas/tema3/img-8.svg" data-aos="fade-left")
 </template>
 
 <script>
 export default {
   name: 'Tema3',
   data: () => ({
-    // variables de vue
+    modal1: false,
   }),
   mounted() {
     this.$nextTick(() => {
