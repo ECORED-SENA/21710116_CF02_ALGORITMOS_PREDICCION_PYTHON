@@ -34,6 +34,13 @@
   margin-right: -3rem
   padding-right: 3rem
   padding-left: 3rem
+.seccion-principal
+  .banner-principal
+    .container
+      @media (max-width: 991px)
+        background-image: url("../assets/curso/portada/fondo-banner-principal-tablet.svg") !important
+      @media (max-width: 768px)
+        background-image: url("../assets/curso/portada/fondo-banner-principal-movil.svg") !important
 .contenedor-principal
   .seccion-principal
     .curso-main-container
@@ -63,6 +70,7 @@
   border-radius: 50%
   max-width: 37px
   max-height: 37px
+  min-width: 37px
   display: flex
   justify-content: center
   align-content: center
@@ -75,3 +83,6 @@
     .linea-tiempo-c__header__btn--left, .linea-tiempo-c__header__btn--right
       background-color: #FFD945
       border-color: rgba(58, 97, 240, .31)
+.table-1-edit
+  td
+    border-color: transparent

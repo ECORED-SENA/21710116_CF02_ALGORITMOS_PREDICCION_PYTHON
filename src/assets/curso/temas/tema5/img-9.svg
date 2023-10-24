@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="315" height="48" viewBox="0 0 315 48">
+  <g id="Grupo_1084108" data-name="Grupo 1084108" transform="translate(-285 -3214)">
+    <text id="Senstividad_o_" data-name="Senstividad o 𝑟𝑒𝑐𝑎𝑙𝑙 =" transform="translate(285 3243)" fill="#12263f" font-size="16" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="0" y="0">Senstividad o </tspan><tspan y="0" font-family="SegoeUISymbol, Segoe UI Symbol" font-weight="400">𝑟𝑒𝑐𝑎𝑙𝑙</tspan><tspan y="0" xml:space="preserve"> =</tspan></text>
+    <text id="_" data-name="𝑇𝑃 +  𝐹𝑁" transform="translate(495 3258)" fill="#12263f" font-size="16" font-family="SegoeUISymbol, Segoe UI Symbol"><tspan x="0" y="0">𝑇𝑃</tspan><tspan y="0" xml:space="preserve" font-family="Roboto-Medium, Roboto" font-weight="500"> +  </tspan><tspan y="0">𝐹𝑁</tspan></text>
+    <text id="_2" data-name="𝑇𝑃 + 𝑇𝑁" transform="translate(496.831 3231)" fill="#12263f" font-size="16" font-family="SegoeUISymbol, Segoe UI Symbol"><tspan x="0" y="0">𝑇𝑃</tspan><tspan y="0" xml:space="preserve" font-family="Roboto-Medium, Roboto" font-weight="500"> + </tspan><tspan y="0">𝑇𝑁</tspan></text>
+    <path id="Trazado_829314" data-name="Trazado 829314" d="M2667-8570.979h140.169" transform="translate(-2207.169 11810)" fill="none" stroke="#000" stroke-width="1"/>
+  </g>
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="220.395" height="61" viewBox="0 0 220.395 61">
+  <g id="Grupo_1084102" data-name="Grupo 1084102" transform="translate(-3917 10619)">
+    <text id="_" data-name="𝑅𝑀𝑆𝐸 = " transform="translate(3917 -10583)" fill="#12263f" font-size="16" font-family="SegoeUISymbol, Segoe UI Symbol"><tspan x="0" y="0">𝑅𝑀𝑆𝐸</tspan><tspan y="0" xml:space="preserve" font-family="Roboto-Regular, Roboto"> = </tspan></text>
+    <path id="Trazado_829311" data-name="Trazado 829311" d="M3972.906-10523.28l5.975,10.321,11.34-57.488h147.174" transform="translate(0 -47.818)" fill="none" stroke="#000" stroke-width="1"/>
+    <text id="_2" data-name="∑" transform="translate(4019 -10581)" fill="#12263f" font-size="20" font-family="ArialMT, Arial"><tspan x="0" y="0">∑</tspan></text>
+    <text id="_3" data-name="𝑛" transform="translate(4021 -10602)" fill="#12263f" font-size="16" font-family="SegoeUISymbol, Segoe UI Symbol"><tspan x="0" y="0">𝑛</tspan></text>
+    <text id="_1" data-name="𝑗=1" transform="translate(4013 -10562)" fill="#12263f" font-size="16" font-family="SegoeUISymbol, Segoe UI Symbol"><tspan x="0" y="0">𝑗</tspan><tspan y="0" font-family="Roboto-Regular, Roboto">=1</tspan></text>
+    <text id="_4" data-name="𝑛" transform="translate(3998 -10573)" fill="#12263f" font-size="16" font-family="SegoeUISymbol, Segoe UI Symbol"><tspan x="0" y="0">𝑛</tspan></text>
+    <text id="_1-2" data-name="1" transform="translate(3998 -10593)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">1</tspan></text>
+    <path id="Trazado_829312" data-name="Trazado 829312" d="M2506.311-10115h11" transform="translate(1491.689 -474)" fill="none" stroke="#000" stroke-width="0.5"/>
+    <text id="_̂_2" data-name="(𝑦𝑗−𝑦̂𝑗)2" transform="translate(4047 -10581)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">(</tspan><tspan y="0" font-family="SegoeUISymbol, Segoe UI Symbol">𝑦</tspan><tspan y="0" font-size="9.333" font-family="SegoeUISymbol, Segoe UI Symbol" baseline-shift="-5.33279994943018">𝑗</tspan><tspan y="0">−</tspan><tspan y="0" font-family="SegoeUISymbol, Segoe UI Symbol">𝑦</tspan><tspan y="0">̂</tspan><tspan y="0" font-size="9.333" font-family="SegoeUISymbol, Segoe UI Symbol" baseline-shift="-5.33279994943018">𝑗</tspan><tspan y="0">)</tspan><tspan y="0" font-size="9.333" baseline-shift="5.33279994943018">2</tspan></text>
+  </g>
+</svg>

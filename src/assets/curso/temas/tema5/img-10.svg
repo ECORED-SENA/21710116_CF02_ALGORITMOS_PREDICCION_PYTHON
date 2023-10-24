@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="180.661" height="48" viewBox="0 0 180.661 48">
+  <g id="Grupo_1084107" data-name="Grupo 1084107" transform="translate(-285 -3687.5)">
+    <text id="Precisión_" data-name="Precisión =" transform="translate(285 3716)" fill="#12263f" font-size="16" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="0" y="0">Precisión =</tspan></text>
+    <text id="_" data-name="𝑇𝑃 + 𝐹𝑃 " transform="translate(390 3731.5)" fill="#12263f" font-size="16" font-family="SegoeUISymbol, Segoe UI Symbol"><tspan x="0" y="0">𝑇𝑃</tspan><tspan y="0" xml:space="preserve" font-family="Roboto-Medium, Roboto" font-weight="500"> + </tspan><tspan y="0">𝐹𝑃</tspan><tspan y="0" font-family="Roboto-Medium, Roboto" font-weight="500"> </tspan></text>
+    <text id="_2" data-name="𝑇𝑃 " transform="translate(412 3704.5)" fill="#12263f" font-size="16" font-family="SegoeUISymbol, Segoe UI Symbol"><tspan x="0" y="0">𝑇𝑃</tspan><tspan y="0" font-family="Roboto-Medium, Roboto" font-weight="500"> </tspan></text>
+    <path id="Trazado_829314" data-name="Trazado 829314" d="M2667-8570.979h90.661" transform="translate(-2292 12283.5)" fill="none" stroke="#000" stroke-width="1"/>
+  </g>
+</svg>

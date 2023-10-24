@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="230.169" height="48" viewBox="0 0 230.169 48">
+  <g id="Grupo_1084109" data-name="Grupo 1084109" transform="translate(-285 -3055)">
+    <text id="Exactitud_" data-name="Exactitud =" transform="translate(285 3081)" fill="#12263f" font-size="16" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="0" y="0">Exactitud =</tspan></text>
+    <text id="_" data-name="𝑇𝑃 + 𝐹𝑃 + 𝑇𝑁 + 𝐹𝑁" transform="translate(379 3099)" fill="#12263f" font-size="16" font-family="SegoeUISymbol, Segoe UI Symbol"><tspan x="0" y="0">𝑇𝑃</tspan><tspan y="0" xml:space="preserve" font-family="Roboto-Medium, Roboto" font-weight="500"> + </tspan><tspan y="0">𝐹𝑃</tspan><tspan y="0" xml:space="preserve" font-family="Roboto-Medium, Roboto" font-weight="500"> + </tspan><tspan y="0">𝑇𝑁</tspan><tspan y="0" xml:space="preserve" font-family="Roboto-Medium, Roboto" font-weight="500"> + </tspan><tspan y="0">𝐹𝑁</tspan></text>
+    <text id="_2" data-name="𝑇𝑃 + 𝑇𝑁" transform="translate(412 3072)" fill="#12263f" font-size="16" font-family="SegoeUISymbol, Segoe UI Symbol"><tspan x="0" y="0">𝑇𝑃</tspan><tspan y="0" xml:space="preserve" font-family="Roboto-Medium, Roboto" font-weight="500"> + </tspan><tspan y="0">𝑇𝑁</tspan></text>
+    <path id="Trazado_829314" data-name="Trazado 829314" d="M2667-8570.979h140.169" transform="translate(-2292 11651)" fill="none" stroke="#000" stroke-width="1"/>
+  </g>
+</svg>
