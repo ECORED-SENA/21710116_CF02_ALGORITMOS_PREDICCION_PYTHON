@@ -24,7 +24,7 @@
         .tarjeta.p-4(style="background-color: #F3F9FF")
           img.mx-auto.mb-4(src="@/assets/curso/temas/tema2/img-3.svg" style="max-width: 177px; margin-top: -4.7rem")
           h4.text-center NumPy
-          p.mb-0 (Pronunciado /ˈnʌmpaɪ/ (numpai) o, a veces /ˈnʌmpi/ (numpi)) es una biblioteca para el lenguaje de programación Python que da soporte para crear vectores y matrices grandes multidimensionales, junto con una gran colección de funciones matemáticas de alto nivel para operar con ellas.
+          p.mb-0 (Pronunciado /<em>'nʌmpaɪ</em>/ (numpai) o, a veces /<em>'nʌmpi</em>/ (numpi)) es una biblioteca para el lenguaje de programación Python que da soporte para crear vectores y matrices grandes multidimensionales, junto con una gran colección de funciones matemáticas de alto nivel para operar con ellas.
         .tarjeta.p-4(style="background-color: #F3F9FF")
           img.mx-auto.mb-4(src="@/assets/curso/temas/tema2/img-4.svg" style="max-width: 177px; margin-top: -4.7rem")
           h4.text-center Pandas

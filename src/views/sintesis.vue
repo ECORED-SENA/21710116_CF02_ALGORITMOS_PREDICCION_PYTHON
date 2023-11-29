@@ -6,7 +6,7 @@
 
     p Actualmente, existen muchas herramientas y aplicaciones para analizar y predecir los datos, este componente en particular reconoce algunos algoritmos que permiten dichos procesos. Su correcta aplicación facilita la toma de decisiones acertada en cualquier tipo de contexto.
 
-    p.fw-bold Una breve revisión de los temas vistos se encuentra en el siguiente esquema.
+    p.mb-5.fw-bold Una breve revisión de los temas vistos se encuentra en el siguiente esquema.
 
     .row.justify-content-center
       .col-lg-10.mb-5

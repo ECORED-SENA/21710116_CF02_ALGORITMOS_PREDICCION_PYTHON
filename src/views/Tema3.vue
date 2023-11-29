@@ -21,7 +21,7 @@
     #t_3_1.titulo-segundo.color-acento-contenido
       h2 3.1  Algoritmo de regresión con Python
     
-    p(data-aos="fade-right") La regresión lineal se utiliza para estimar valores reales como ventas, costos, cantidad de llamadas en una central, gastos, etc., en función de unas variables predictoras de tipo continuo. <b>La mejor ecuación que se ajusta se llama línea de regresión y la ecuación utilizada es:</b>
+    p.mb-5(data-aos="fade-right") La regresión lineal se utiliza para estimar valores reales como ventas, costos, cantidad de llamadas en una central, gastos, etc., en función de unas variables predictoras de tipo continuo. <b>La mejor ecuación que se ajusta se llama línea de regresión y la ecuación utilizada es:</b>
 
     .d-flex.flex-wrap.mb-5
       .col-md-6.d-flex.flex-wrap.order-2.order-md-1
@@ -45,7 +45,7 @@
         .col-lg-11.mx-auto.d-flex.flex-wrap.align-items-start(titulo="Paso 1")
           .col-lg-8.pe-lg-4.order-2.order-lg-1
             p(data-aos="fade-right") Lo primero que se debe tener en cuenta es que: 
-            p(data-aos="fade-right") linear_model: sirve para entrenar un modelo de Machine Learning de regresión lineal. 
+            p(data-aos="fade-right") linear_model: sirve para entrenar un modelo de <em>Machine Learning</em> de regresión lineal. 
               br            
               |#[b train_test_split:] sirve para dividir los datos en datos de entrenamiento y datos de prueba. 
               br              
@@ -53,7 +53,7 @@
             p.fw-bold(data-aos="fade-right") En ese orden de ideas el código a utilizar es:
             .d-flex.pe-md-3.mb-3
               .tarjeta.px-4.py-2(style="background-color: #24135A;" data-aos="fade-left")
-                p.mb-0.text-white import seaborn as sns 
+                code.mb-0.text-white import seaborn as sns 
                   br                
                   |import matplotlib.pyplot as plt 
                   br                  
@@ -66,11 +66,11 @@
 
         .col-lg-11.mx-auto.d-flex.flex-wrap.align-items-start(titulo="Paso 2")
           .col-lg-8.pe-lg-4.order-2.order-lg-1
-            p Para entrenar el modelo con esta librería inicialmente se carga el valor de X con los datos de la longitud de la aleta #[b (flipper_length_mm)], y Y con los datos de masa del pingüino #[b (body_mass_g)], posteriormente se obtiene un subconjunto de datos que serán el dataset de entrenamiento y el set de pruebas en las variables #[b X_train, Y_train, X_test, Y_test] en una proporción de 80 % para los datos de entrenamiento y 20 % para los datos de prueba.
+            p Para entrenar el modelo con esta librería inicialmente se carga el valor de X con los datos de la longitud de la aleta #[b (flipper_length_mm)], y Y con los datos de masa del pingüino #[b (body_mass_g)], posteriormente se obtiene un subconjunto de datos que serán el <em>dataset</em> de entrenamiento y el set de pruebas en las variables #[b X_train, Y_train, X_test, Y_test] en una proporción de 80 % para los datos de entrenamiento y 20 % para los datos de prueba.
             p.fw-bold El código a utilizar es:
             .d-flex.pe-md-3.mb-3
               .tarjeta.px-4.py-2(style="background-color: #24135A;")
-                p.mb-0.text-white X = df_pinguinos[“ flipper_length_mm ”].values.reshape(-1,1) 
+                code.mb-0.text-white X = df_pinguinos[“ flipper_length_mm ”].values.reshape(-1,1) 
                   br
                   |Y = df_pinguinos[“body_mass_g”] 
                   br
@@ -79,11 +79,11 @@
 
         .col-lg-11.mx-auto.d-flex.flex-wrap.align-items-start(titulo="Paso 3")
           .col-lg-8.pe-lg-4.order-2.order-lg-1
-            p Posteriormente, se crea una instancia de LinearRegresion y se instruye a la regresión lineal que aprenda de los datos #[b X_train y Y_train], para lo cual se usa el método fit para ajustar los parámetros de la línea de regresión a los datos, es decir, se entrena a la regresión lineal.
+            p Posteriormente, se crea una instancia de <b>LinearRegression</b> y se instruye a la regresión lineal que aprenda de los datos #[b X_train y Y_train], para lo cual se usa el método <b>fit</b> para ajustar los parámetros de la línea de regresión a los datos, es decir, se entrena a la regresión lineal.
             p.fw-bold Para ese fin se utiliza el siguiente código:
             .d-flex.pe-md-3.mb-3
               .tarjeta.px-4.py-2(style="background-color: #24135A;")
-                p.mb-0.text-white regresion = LinearRegression() 
+                code.mb-0.text-white regresion = LinearRegression() 
                   br
                   |model = reg.fit(X_train, Y_train)
           img.mx-auto.col-lg-4.mb-4.mb-lg-auto.order-1.order-lg-2(src="@/assets/curso/temas/tema3/img-3.svg" style="max-width: 290px")
@@ -91,7 +91,7 @@
         .col-lg-11.mx-auto.d-flex.flex-wrap.align-items-start(titulo="Paso 4")
           .col-lg-8.pe-lg-4.order-2.order-lg-1
             p Una vez realizado esto ya se pueden observar los parámetros que estima la regresión lineal : 
-            p print(‘m = ‘ + str(regresion.coef_) + ‘, b = ‘ 
+            code(style="color: black") print(‘m = ‘ + str(regresion.coef_) + ‘, b = ‘ 
               br            
               |+ str(regresion.intercept_)) 
               br              
@@ -99,15 +99,15 @@
             p Los parámetros obtenidos m y b se reemplazan en la ecuación de regresión y se obtiene:
             .d-flex.pe-md-3.mb-3
               .tarjeta.px-4.py-2(style="background-color: #24135A;")
-                p.mb-0.text-white 𝑦 = 50.417981𝑥 −5919.25874
+                code.mb-0.text-white 𝑦 = 50.417981𝑥 −5919.25874
           img.mx-auto.col-lg-4.mb-4.mb-lg-auto.order-1.order-lg-2(src="@/assets/curso/temas/tema3/img-4.svg" style="max-width: 290px")
         
         .col-lg-11.mx-auto.d-flex.flex-wrap.align-items-start(titulo="Paso 5")
           .col-lg-8.pe-lg-4.order-2.order-lg-1
-            p Luego de haber realizado este proceso, ya se puede predecir el resultado de la masa de un pingüino con una longitud de una aleta, usando el método predict de la clase LinearRegression. Si se desea saber cuál es la masa aproximada de un pingüino que tiene una longitud de la aleta de unos 200 mm, se usa el siguiente código:
+            p Luego de haber realizado este proceso, ya se puede predecir el resultado de la masa de un pingüino con una longitud de una aleta, usando el método predict de la clase <b>LinearRegression</b>. Si se desea saber cuál es la masa aproximada de un pingüino que tiene una longitud de la aleta de unos 200 mm, se usa el siguiente código:
             .d-flex.pe-md-3.mb-3
               .tarjeta.px-4.py-2(style="background-color: #24135A;")
-                p.text-white longitudAleta =np.array ([200]) 
+                code.text-white longitudAleta = np.array ([200]) 
                   br
                   |prediccion = regresion.predict( longitudAleta.reshape(-1,1) ) 
                   br
@@ -154,17 +154,17 @@
       LineaTiempoC.color-acento-contenido(text-small)
         .col-lg-11.mx-auto.d-flex.flex-wrap(titulo="Decisiones de clasificación")
           .col-lg-8.pe-lg-4.order-2.order-lg-1
-            p(data-aos="fade-right") Para aplicar el árbol de decisión al ejercicio que se ha venido trabajando, se observa que se podría tomar decisiones de clasificación usando las variables bill_length_mm y bill_depth_mm para clasificar una especie, entonces, se remueve del dataset las demás características. 
+            p(data-aos="fade-right") Para aplicar el árbol de decisión al ejercicio que se ha venido trabajando, se observa que se podría tomar decisiones de clasificación usando las variables <b>bill_length_mm</b> y <b>bill_depth_mm</b> para clasificar una especie, entonces, se remueve del <em>dataset</em> las demás características. 
 
             p.fw-bold(data-aos="fade-right") El código que se debe utilizar en este caso es:
             .d-flex.pe-md-3.mb-3
               .tarjeta.px-4.py-2(style="background-color: #24135A;" data-aos="fade-right")
-                p.mb-0.text-white datosPicos = df_pinguinos.drop ([‘island’, ‘flipper_length_mm’, ‘body_mass_g’, ‘sex’], axis = 1) pairPlotPicos = sns.pairplot ( datosPicos, hue=‘species’) pairPlotPicos.fig.set_size_inches(9, 6.5)
+                code.mb-0.text-white datosPicos = df_pinguinos.drop ([‘island’, ‘flipper_length_mm’, ‘body_mass_g’, ‘sex’], axis = 1) pairPlotPicos = sns.pairplot ( datosPicos, hue=‘species’) pairPlotPicos.fig.set_size_inches(9, 6.5)
           img.mx-auto.col-lg-4.mb-4.mb-lg-auto.order-1.order-lg-2(src="@/assets/curso/temas/tema3/lt-3.svg" style="max-width: 315px" data-aos="fade-left")
 
         .col-lg-11.mx-auto.d-flex.flex-wrap(titulo="Gráfico de pares")
           .col-lg-7.pe-lg-4.order-2.order-lg-1
-            p El gráfico muestra que la especie Adelie puede ser identificada con la longitud del pico (bill_length_mm) y para distinguir entre chinstrap y gentoo se puede realizar con la característica de profundidad del pico (bill_depth_mm).
+            p El gráfico muestra que la especie Adelie puede ser identificada con la longitud del pico (<b>bill_length_mm</b>) y para distinguir entre chinstrap y gentoo se puede realizar con la característica de profundidad del pico (<b>bill_depth_mm</b>).
           img.mx-auto.col-lg-4.mb-4.mb-lg-auto.order-1.order-lg-2(src="@/assets/curso/temas/tema3/lt-1.png" style="max-width: 400px")
 
         .col-lg-11.mx-auto.d-flex.flex-wrap(titulo="Variables predictoras")
@@ -174,18 +174,18 @@
               .tarjeta.px-4.py-2(style="background-color: #24135A;")
                 p.mb-0.text-white Donde: 
                   br
-                  |X = df_pinguinos[[‘bill_length_mm’, ‘bill_depth_mm’]]
+                code.text-white X = df_pinguinos[[‘bill_length_mm’, ‘bill_depth_mm’]]
                   br
                   |Y = df_pinguinos[‘species’]
           img.mx-auto.col-lg-4.mb-4.mb-lg-auto.order-1.order-lg-2(src="@/assets/curso/temas/tema3/lt-2.svg" style="max-width: 315px")
         
         .col-lg-11.mx-auto.d-flex.flex-wrap(titulo="Variables predictoras")
           .col-lg-8.pe-lg-4.order-2.order-lg-1
-            p Una vez se tienen separadas las variables predictoras y las variables etiquetadas se procede a separar los datos de entrenamiento y prueba con la instrucción train_test_split, con parámetro X, Y y test_size=0.2, que significa que se tomará el 20 % de los datos para el set de pruebas, por tanto el 80 % se tomarán para el set de entrenamiento.
+            p Una vez se tienen separadas las variables predictoras y las variables etiquetadas se procede a separar los datos de entrenamiento y prueba con la instrucción <b>train_test_split</b>, con parámetro X, Y y <b>test_size=0.2</b>, que significa que se tomará el 20 % de los datos para el set de pruebas, por tanto el 80 % se tomarán para el set de entrenamiento.
             p.fw-bold Esto se hace a partir del siguiente código:
             .d-flex.pe-md-3.mb-3
               .tarjeta.px-4.py-2(style="background-color: #24135A;")
-                p.mb-0.text-white X_entrenamiento, X_prueba, Y_entrenamiento, Y_prueba = train_test_split(X, Y, test_size = 0.2) print(‘Los datos de entrenamiento son {} y los datos de prueba son {} ‘.format(X_entrenamiento.shape[0], X_prueba.shape[0])) Los datos de entrenamiento son 266 y los datos de prueba son 6
+                code.mb-0.text-white X_entrenamiento, X_prueba, Y_entrenamiento, Y_prueba = train_test_split(X, Y, test_size = 0.2) print(‘Los datos de entrenamiento son {} y los datos de prueba son {} ‘.format(X_entrenamiento.shape[0], X_prueba.shape[0])) Los datos de entrenamiento son 266 y los datos de prueba son 6
           img.mx-auto.col-lg-4.mb-4.mb-lg-auto.order-1.order-lg-2(src="@/assets/curso/temas/tema3/lt-3.svg" style="max-width: 315px")
         
         .col-lg-11.mx-auto.d-flex.flex-wrap(titulo="Algoritmo")
@@ -194,7 +194,7 @@
             p El código a utilizar es:
             .d-flex.pe-md-3.mb-3
               .tarjeta.px-4.py-2(style="background-color: #24135A;")
-                p.text-white from sklearn.tree import DecisionTreeClassifier
+                code.text-white from sklearn.tree import DecisionTreeClassifier
                   br
                   |from sklearn import tree algoritmoTree = DecisionTreeClassifier() algoritmoTree.fit (X_entrenamiento, Y_entrenamiento) Y_predTree = algoritmoTree.predict (X_prueba) print(‘La Precisión del algoritmo de árboles de decisión es: {}’.format(algoritmoTree.score( X_entrenamiento, Y_entrenamiento ))) 
                 p.text-white La precisión del algoritmo de árboles de decisión es 1.0.
@@ -206,17 +206,14 @@
               br
               |Para realizar una predicción con árboles de clasificación con Python, se hace la suposición que se encuentra un pingüino con los siguientes datos:
             .tarjeta.px-4.py-2(style="background-color: #24135A;")
-              p.mb-0.text-white bill_length_mm = 50 mm
+              code.mb-0.text-white bill_length_mm = 50 mm
                 br
                 |'bill_depth_mm' = 21 mm
                 br
-                |El código a utilizar es:
-                br
-                |algoritmoTree.predict([[50,21]])
-                br
-                |resultado:
-                br
-                |array(['Chinstrap'], dtype=object)
+              p.mb-0.text-white El código a utilizar es:
+              code.text-white algoritmoTree.predict([[50,21]])
+              p.mb-0.text-white resultado:
+              code.text-white array(['Chinstrap'], dtype=object)
           img.mx-auto.col-lg-4.mb-4.mb-lg-auto.order-1.order-lg-2(src="@/assets/curso/temas/tema3/lt-3.svg" style="max-width: 315px")
 
         .col-lg-11.mx-auto.d-flex.flex-wrap(titulo="Realizar la predicción")
@@ -224,7 +221,7 @@
             p Si se desea observar el árbol de decisión en pleno se puede hacer de varias formas, una de las cuales es importando la librería #[b export_graphviz], se definen las variables características y las variables label, de esta manera:
             .d-flex.pe-md-3.mb-3
               .tarjeta.px-4.py-2(style="background-color: #24135A;")
-                p.mb-0.text-white from sklearn.tree import DecisionTreeClassifier, export_graphviz import graphviz
+                code.mb-0.text-white from sklearn.tree import DecisionTreeClassifier, export_graphviz import graphviz
           img.mx-auto.col-lg-4.mb-4.mb-lg-auto.order-1.order-lg-2(src="@/assets/curso/temas/tema3/lt-4.svg" style="max-width: 315px")
         
         .col-lg-11.mx-auto.d-flex.flex-wrap(titulo="Dibujo del árbol")
@@ -233,12 +230,12 @@
             p El código es el siguiente:
             .d-flex.pe-md-3.mb-3
               .tarjeta.px-4.py-2(style="background-color: #24135A;")
-                p.mb-0.text-white feature_names = [‘bill_length_mm’, ’bill_depth_mm’] class_names = [‘Adelie’, ‘Chinstrap’,’Gentoo’] datos = tree.export_graphviz(algoritmoTree, out_file=None, feature_names=feature_names, class_names = class_names,filled=True, rounded=True, special_characters=True) graph = graphviz.Source(datos) graph
+                code.mb-0.text-white feature_names = [‘bill_length_mm’, ’bill_depth_mm’] class_names = [‘Adelie’, ‘Chinstrap’,’Gentoo’] datos = tree.export_graphviz(algoritmoTree, out_file=None, feature_names=feature_names, class_names = class_names,filled=True, rounded=True, special_characters=True) graph = graphviz.Source(datos) graph
           img.mx-auto.col-lg-4.mb-4.mb-lg-auto.order-1.order-lg-2(src="@/assets/curso/temas/tema3/lt-5.svg" style="max-width: 315px")
         
         .col-lg-11.mx-auto.d-flex.flex-wrap(titulo="Árbol generado")
           .col-lg-8.pe-lg-4.order-2.order-lg-1
-            p Se puede observar en el árbol generado una primera comparación inicial de bill_length_mm <= 42.55 o bill_length_mm > 42.55 y una primera rama con bill_depth_mm <= 15.1 si la primera condición es verdadera. Luego, se observa en la rama siguiente un primer resultado. Si cumple las dos condiciones anteriores, la especie se clasificó como gentoo y así sucesivamente. 
+            p Se puede observar en el árbol generado una primera comparación inicial de <b>bill_length_mm <= 42.55 o bill_length_mm 42.55</b > y una primera rama con <b>bill_depth_mm <= 15.1</b> si la primera condición es verdadera. Luego, se observa en la rama siguiente un primer resultado. Si cumple las dos condiciones anteriores, la especie se clasificó como gentoo y así sucesivamente. 
             p El algoritmo clasificó en forma automática estas condiciones de la forma más eficiente posible. Se puede observar un árbol resultante bastante complejo pero con #[b scikit-learn] la generación es bastante sencilla.
           .col-lg-4.mb-4.mb-lg-auto.order-1.order-lg-2.text-center
             img.mx-auto.mb-2(src="@/assets/curso/temas/tema3/lt-6.svg" style="max-width: 315px")
@@ -263,7 +260,7 @@
           p Lo primero que se debe hacer es importar las librerías necesarias para trabajar con el algoritmo k-vecinos más cercanos, para ese fin debe usarse el siguiente comando:
           .d-flex.pe-md-3.mb-3
             .tarjeta.px-4.py-4(style="background-color: #24135A;" data-aos="fade-right")
-              p.mb-0.text-white from sklearn.neighbors import KNeighborsClassifier
+              code.mb-0.text-white from sklearn.neighbors import KNeighborsClassifier
       
       .d-flex.align-items-start.mb-4
         .id-circular.mb-2.mx-auto(style="background: linear-gradient(180deg, rgba(179,26,143,1) 0%, rgba(254,17,126,1) 100%);" data-aos="fade-right")
@@ -273,7 +270,7 @@
           p El código fuente muestra la predicción con k-vecinos más cercanos.
           .d-flex.pe-md-3.mb-3
             .tarjeta.px-4.py-4.w-100(style="background-color: #24135A; overflow: auto" data-aos="fade-right")
-              p.mb-0.text-white algoritmoKnn = KNeighborsClassifier(n_neighbors=5)
+              code.mb-0.text-white algoritmoKnn = KNeighborsClassifier(n_neighbors=5)
                 br
                 |algoritmoKnn.fit(X_entrenamiento, Y_entrenamiento)
                 br
@@ -287,10 +284,10 @@
         .id-circular.mb-2.mx-auto(style="background: linear-gradient(180deg, rgba(179,26,143,1) 0%, rgba(254,17,126,1) 100%);" data-aos="fade-right")
           span 3
         .col.ps-3
-          p Para realizar una predicción k vecinos más cercanos con Python se hace la suposición que se encuentra un pingüino con los siguientes datos: bill_length_mm = 50 mm ‘bill_depth_mm’ = 21 mm
+          p Para realizar una predicción k vecinos más cercanos con Python se hace la suposición que se encuentra un pingüino con los siguientes datos: <b>bill_length_mm</b> = 50 mm ‘<b>bill_depth_mm’</b> = 21 mm
           .d-flex.pe-md-3.mb-3
             .tarjeta.px-4.py-4(style="background-color: #24135A;" data-aos="fade-right")
-              p.mb-0.text-white res=algoritmoKnn.predict([[50,21]])
+              code.mb-0.text-white res=algoritmoKnn.predict([[50,21]])
                 br
                 |print(“La especie puede ser : “)
                 br
@@ -309,7 +306,7 @@
           p El resultado de una predicción con estos datos es:
           .d-flex.pe-md-3.mb-3
             .tarjeta.px-4.py-4(style="background-color: #24135A;" data-aos="fade-right")
-              p.mb-0.text-white bill_length_mm = 50 y bill_depth_mm = 21, es decir, que el pingüino es de tipo Chinstrap
+              p.mb-0.text-white #[code bill_length_mm = 50 y bill_depth_mm = 21], es decir, que el pingüino es de tipo Chinstrap
 
 
     Separador
@@ -357,7 +354,7 @@
               h4.mb-1 Ejemplo de redes neuronales
               p.mb-0.text-small Revise el siguiente documento en el que se muestra un ejemplo sencillo con Python, haciendo uso de las redes neuronales.
             .col-sm-auto
-              a.boton.color-acento-botones(:href="obtenerLink('/downloads/CF02_3_5_imagen_interactiva_caracteristicas_redes_neuronales.docx')" target="_blank")
+              a.boton.color-acento-botones(:href="obtenerLink('/downloads/EjemploRedesneuronales.pdf')" target="_blank")
                 span Descargar
                 i.fas.fa-file-download
 

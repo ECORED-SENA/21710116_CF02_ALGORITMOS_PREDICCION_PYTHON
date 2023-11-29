@@ -8,7 +8,7 @@
       h1 Introducción a los modelos de predicción
     .d-flex.flex-wrap.mb-5
       .col-lg-9.order-2.order-lg-1.pe-lg-4(data-aos="fade-right")
-        p Para comenzar es importante hacer un recorrido por el origen de <em>Python</em>, uno de los lenguajes de programación más usados en la actualidad, el cual fue creado en 1991 en el Instituto Nacional de Matemáticas de Holanda por Guido van Rossum, quien lo llamó <em>Python</em>, por un grupo de comedia denominado así.
+        p Para comenzar es importante hacer un recorrido por el origen de Python, uno de los lenguajes de programación más usados en la actualidad, el cual fue creado en 1991 en el Instituto Nacional de Matemáticas de Holanda por Guido van Rossum, quien lo llamó Python, por un grupo de comedia denominado así.
         .cajon-b.cajon-b-edit.color-primario.p-3.mb-5
           p.mb-0 Es uno de los lenguajes más populares que existen en el mundo, ya que sobrepasa en popularidad a R, y es idóneo para la ciencia de datos. <b>El siguiente recurso da a conocer las características más representativas de la herramienta.</b>
       img.mx-auto.mb-4.mb-lg-auto.col-lg-3.order-1.order-lg-2(src="@/assets/curso/temas/tema1/img-1.svg" style="max-width: 295px" data-aos="fade-left")
@@ -34,13 +34,13 @@
             ul.lista-ul.mb-5
               li.mb-1
                 i.lista-ul__vineta
-                | Aprendizaje automático (Machine Learning).
+                | Aprendizaje automático (<em>Machine Learning</em>).
               li.mb-1
                 i.lista-ul__vineta
                 | Inteligencia artificial (IA).
               li.mb-1
                 i.lista-ul__vineta
-                | Big data y análisis de datos.
+                | <em>Big data</em> y análisis de datos.
               li.mb-1
                 i.lista-ul__vineta
                 | Operaciones matemáticas.
@@ -50,14 +50,14 @@
           .tarjeta.p-4(titulo="Lenguaje común" style="background-color: #E2F8F0")
             h4 Lenguaje común
             p.mb-0 Python es un lenguaje muy común en la construcción de sitios importantes como YouTube, Instagram, etc.
-      img.mx-auto.mb-4.mb-lg-auto.col-lg-3.order-1.order-lg-2(src="@/assets/curso/temas/tema1/img-4.png" style="max-width: 295px" data-aos="fade-left")
+      img.d-none.d-lg-flex.mx-auto.mb-4.mb-lg-auto.col-lg-3.order-1.order-lg-2(src="@/assets/curso/temas/tema1/img-4.png" style="max-width: 295px" data-aos="fade-left")
     .container-100.mb-5(style="background: linear-gradient(0deg, rgba(255,255,255,1) 18%, rgba(226,248,240,1) 18%, rgba(255,255,255,1) 100%);")
       p.mb-5(data-aos="fade-right") Ahora bien, después de conocer las cualidades de Python, y para empezar a entender el tema de predicciones, se va a trabajar el presente componente en función del siguiente ejercicio práctico denominado <b style="background-color: #E1E2FC">“Entendiendo el crecimiento y la clasificación de los pingüinos del Archipiélago Palmer en la Antártida”,</b> preste mucha atención.
 
       .tarjeta.col-xl-10.mx-auto.p-3.px-md-5.py-md-4.mb-5(style="background: linear-gradient(180deg, rgba(168,221,255,1) 0%, rgba(213,213,255,1) 100%);" data-aos="fade-left")
-        p.mb-0 El biólogo y estadista de la Gran Bretaña Ronsal Fisher ha estudiado los pingüinos encontrados en el Archipiélago Palmer en la Antártida. A partir de ahí, ha generado características de tres diferentes especies de pingüinos, Adelié, Gentoo y Chinstrap en un dataset de 344 filas y 7 columnas.
+        p.mb-0 El biólogo y estadista de la Gran Bretaña Ronsal Fisher ha estudiado los pingüinos encontrados en el Archipiélago Palmer en la Antártida. A partir de ahí, ha generado características de tres diferentes especies de pingüinos, Adelié, Gentoo y Chinstrap en un <em>dataset</em> de 344 filas y 7 columnas.
       .tarjeta.col-xl-10.mx-auto.p-3.p-md-4(style="background-color: #24135A")
-        p.fw-bold(style="color: #FFD945") El dataset consta de los siguientes campos:
+        p.fw-bold(style="color: #FFD945") El <em>dataset</em> consta de los siguientes campos:
         .d-flex.flex-wrap
           ul.lista-ul.col-lg-8.pe-lg-4(data-aos="fade-right")
             li.mb-1(style="color: white")
@@ -126,11 +126,16 @@
     p.fw-bold.mb-5(data-aos="fade-right") Los datos se obtienen importando las librerías Python de acuerdo con el código:
 
     .tarjeta.col-12.col-lg-8.col-xl-6.mx-auto.p-3.p-md-4(style="background-color: #24135A;")
-      p.text-white.mb-2.col-lg-9.mx-auto(data-aos="fade-left") import seaborn as sns 
-      p.text-white.mb-2.col-lg-9.mx-auto(data-aos="fade-left") import numpy as np
-      p.text-white.mb-2.col-lg-9.mx-auto(data-aos="fade-left") df_pinguinos = sns.load_dataset("penguins")
-      p.text-white.mb-2.col-lg-9.mx-auto(data-aos="fade-left") df_pinguinos.isnull().sum()
-      p.text-white.mb-2.col-lg-9.mx-auto(data-aos="fade-left") df_pinguinos.dropna(inplace=True)
+      .col-lg-9.mx-auto
+        code.text-white(data-aos="fade-left") import seaborn as sns
+          br
+          |import numpy as np
+          br
+          |df_pinguinos = sns.load_dataset("penguins")
+          br
+          |df_pinguinos.isnull().sum()
+          br
+          |df_pinguinos.dropna(inplace=True)
 
     p.mb-5.flw-bold(data-aos="fade-right") Una muestra de estos datos es:
 
@@ -195,7 +200,7 @@
 
     .d-flex.mb-4
       .tarjeta.p-3.p-md-4(style="background-color: #24135A;" data-aos="fade-left")
-        p.mb-0.text-white sns.pairplot(df_pinguinos, hue='species', height=2)
+        code.mb-0.text-white sns.pairplot(df_pinguinos, hue='species', height=2)
     
     p.mb-5.fw-bold(data-aos="fade-right") El gráfico resultante es el que se observa a continuación:
 

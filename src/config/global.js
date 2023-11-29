@@ -171,28 +171,28 @@ export default {
     {
       tema: 'Librerías de Python',
       referencia:
-        'Escuela de Bayes. (2021). <em>Las 7 librerías más importantes para el análisis de datos en el lenguaje de programación de Python</em> [video]. YouTube. ',
+        'Escuela de Bayes. (2021). <em>Las 7 librerías más importantes para el análisis de datos en el lenguaje de programación de Python</em>.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=guADTdAhLtA',
     },
     {
       tema: 'Árboles de clasificación con Python',
       referencia:
-        'AMP Tech. (2020). <em>Machine Learning episodio 3. Árboles de decisiones</em> [video]. YouTube.',
+        'AMP Tech. (2020). <em>Machine Learning episodio 3. Árboles de decisiones</em>.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=269QJ5joMCc',
     },
     {
       tema: 'Redes neuronales con Python ',
       referencia:
-        'Ringa Tech. (2020). <em>Tu primera red neuronal en Python y Tensorflow</em>  [video]. YouTube.',
+        'Ringa Tech. (2020). <em>Tu primera red neuronal en Python y Tensorflow</em>.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=iX_on3VxZzk',
     },
     {
       tema: 'Aprendizaje supervisado y no supervisado',
       referencia:
-        'DotCSV. (2020) <em>¿Qué es el aprendizaje supervisado y no supervisado?</em> [video]. YouTube. ',
+        'DotCSV. (2020) <em>¿Qué es el aprendizaje supervisado y no supervisado?</em>.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=oT3arRRB2Cw&t=27s',
     },
@@ -263,7 +263,7 @@ export default {
         'manipulación que se realiza a los datos con el objetivo de entregarlos al modelo como este lo requiera.',
     },
     {
-      termino: '<em>Python</em>',
+      termino: 'Python',
       significado:
         'proceso criptográfico que proporciona comunicaciones seguras a través de las redes, haciendo que la información  entre extremos se transporte de forma segura mediante el uso de criptografía.',
     },

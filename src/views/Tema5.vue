@@ -21,7 +21,7 @@
           p.p-md-4.p-3 En un modelo de regresión se estima el valor numérico de una cantidad no conocida de acuerdo con unas variables características, la diferencia entre el valor predicho y el valor real es el error.
           .d-flex.flex-wrap.p-3.tarjeta(style="background-color: #FFFFFF")
             img.mx-auto.mb-4.mb-md-auto(src="@/assets/curso/temas/tema5/img-2.svg" style="max-width: 61px")
-            p.mb-0.ps-md-4.col-md Existen varios tipos de métricas para evaluar el error, los más conocidos son el error cuadrático medio o root mean squared error (RMSE), el error absoluto medio o mean absolute error (MAE) y el R cuadrado.
+            p.mb-0.ps-md-4.col-md Existen varios tipos de métricas para evaluar el error, los más conocidos son el error cuadrático medio o <em>root mean squared error</em> (RMSE), el error absoluto medio o <em>mean absolute error</em> (MAE) y el R cuadrado.
       p.fw-bold.mb-4 En el siguiente recurso educativo se puede conocer en qué consiste cada uno:
       .d-flex.flex-wrap.mb-5
         .col-lg-8.col-xl-7.order-2.order-lg-1.pe-lg-4.me-xl-auto(data-aos="fade-right")
@@ -32,11 +32,11 @@
               p Mide es qué tan cercanas están las observaciones de los valores predichos, entre más bajo sea el RMSE mejor es el modelo. En Python se calcula de la siguiente forma, usando sklearn o numpy.  Primero se obtienen los valores predichos para el set de datos de prueba en el ejercicio de regresión realizado.
               .d-flex.pe-md-3.mb-3
                 .tarjeta.px-4.py-4(style="background-color: #24135A;")
-                  p.mb-0.text-white Ypredicho = regresion.predict (X_test) 
+                  code.mb-0.text-white Ypredicho = regresion.predict (X_test) 
               p Con scikit-learn o numpy se realiza de la siguiente forma
               .d-flex.pe-md-3.mb-3
                 .tarjeta.px-4.py-4(style="background-color: #24135A;")
-                  p.mb-0.text-white mean_squared_error(Y_test, Ypredicho,squared=True) #
+                  code.mb-0.text-white mean_squared_error(Y_test, Ypredicho,squared=True) #
                     br
                     |con scikit learn mse = np.sqrt((np.square(Y_test - Ypredicho)).
                     br
@@ -46,7 +46,7 @@
               img.mb-4(src="@/assets/curso/temas/tema5/img-5.svg" style="max-width: 166px")
               .d-flex.pe-md-3.mb-3
                 .tarjeta.px-4.py-4(style="background-color: #24135A;")
-                  p.mb-0.text-white rom sklearn.metrics import mean_absolute_error 
+                  code.mb-0.text-white rom sklearn.metrics import mean_absolute_error 
                     br
                     |mean_absolute_error(Y_test ,Ypredicho) # con scikit learn
               p.mb-0 El resultado es MAE = 290.13043318730985 para el ejercicio propuesto.
@@ -55,12 +55,12 @@
               img.mb-4(src="@/assets/curso/temas/tema5/img-6.svg" alt="Fórmula para calcular el error absoluto medio." style="max-width: 146px")
               .d-flex.pe-md-3.mb-3
                 .tarjeta.px-4.py-4(style="background-color: #24135A;")
-                  p.mb-0.text-white r2=regresion.score (X_train, Y_train) 
+                  code.mb-0.text-white r2=regresion.score (X_train, Y_train) 
                     br
                     |print(‘Coeficiente de Determinación R2 = ‘ + str(r2))
               p El resultado obtenido es Coeficiente de Determinación R2 = 0.7541483336256305
               
-        img.mx-auto.mb-4.mb-lg-auto.col-lg-4.order-1.order-lg-2(src="@/assets/curso/temas/tema5/img-3.png" style="max-width: 400px" data-aos="fade-left")
+        img.d-none.d-lg-flex.mx-auto.mb-4.mb-lg-auto.col-lg-4.order-1.order-lg-2(src="@/assets/curso/temas/tema5/img-3.png" style="max-width: 400px" data-aos="fade-left")
 
     Separador
     #t_5_2.titulo-segundo.color-acento-contenido
@@ -80,10 +80,10 @@
           |#[b TN = verdadero negativo] – en este caso el valor real es negativo, igual que el valor predicho
       .d-flex.pe-md-3.mb-3
         .tarjeta.px-4.py-4(style="background-color: #24135A;")
-          p.mb-0.text-white from sklearn.metrics import accuracy_score 
+          code.mb-0.text-white from sklearn.metrics import accuracy_score 
             br
             |from sklearn.metrics import confusion_matrix
-    p.mb-5 En Python se resume acá cómo calcular las métricas de arriba, usando el ejercicio de regresión logística con el dataset seleccionado.
+    p.mb-5 En Python se resume acá cómo calcular las métricas de arriba, usando el ejercicio de regresión logística con el <em>dataset</em> seleccionado.
       br
       |#[b A continuación se puede identificar el proceso para calcular cada una de las métricas establecidas:]
     
@@ -96,7 +96,7 @@
           p Es importante tener en cuenta que para realizar el cálculo de la matriz de confusión se debe ingresar el siguiente código:
           .d-flex.pe-md-3.mb-3
             .tarjeta.px-4.py-4(style="background-color: #24135A;" data-aos="fade-right")
-              p.mb-0.text-white confusion_matrix (Y_prueba, Y_predRL)
+              code.mb-0.text-white confusion_matrix (Y_prueba, Y_predRL)
           p La matriz de confusión del ejercicio compara los totales de clasificación de las especies del set de prueba con los resultados totales de la cantidad de especies predichas, dando como resultado:
           p.mb-0 array ( [ [ 31, 2, 0 ] , 
           p.mb-0.ps-5 [ 0, 10, 1], 
@@ -113,7 +113,7 @@
           img.mb-4(src="@/assets/curso/temas/tema5/img-9.svg" style="max-width: 315px" alt="Fórmula para medir la sensitividad o recall y así identificar el porcentaje de datos relevantes." data-aos="fade-left")
           .d-flex.pe-md-3.mb-3
             .tarjeta.px-4.py-4(style="background-color: #24135A;" data-aos="fade-right")
-              p.mb-0.text-white from sklearn.metrics import accuracy_score from
+              code.mb-0.text-white from sklearn.metrics import accuracy_score from
                 br
                 |sklearn.metrics import recall_score accuracy_score
                 br
@@ -134,7 +134,7 @@
           p.fw-bold El código que se debe aplicar es:
           .d-flex.pe-md-3.mb-3
             .tarjeta.px-4.py-4(style="background-color: #24135A;" data-aos="fade-right")
-              p.mb-0.text-white from sklearn.metrics import precision_score
+              code.mb-0.text-white from sklearn.metrics import precision_score
                 br
                 |precision_score(Y_prueba, Y_predRL, average=None)
           p El resultado frente a la precisión del modelo es:
@@ -151,7 +151,7 @@
           p.fw-bold El código que se debe aplicar es:
           .d-flex.pe-md-3.mb-3
             .tarjeta.px-4.py-4(style="background-color: #24135A;" data-aos="fade-right")
-              p.mb-0.text-white from sklearn.metrics import classification_report
+              code.mb-0.text-white from sklearn.metrics import classification_report
                 br
                 |print(classification_report( Y_prueba, Y_predRL ))
           p.fw-bold El resultado frente a la puntuación F1 del modelo es:
@@ -159,43 +159,43 @@
             table.W-100.table-1-edit(style="max-width: 505px; min-width: 505px;")
               tbody
                 tr
-                  td precision
-                  td recall
-                  td f1-score
-                  td support
+                  td.fw-bold precision
+                  td.fw-bold recall
+                  td.fw-bold f1-score
+                  td.fw-bold support
                   td 
                 tr
-                  td Adelie
+                  td.fw-bold Adelie
                   td 1.00
                   td 0.94
                   td 0.97
                   td 33
                 tr
-                  td Chinstrap
+                  td.fw-bold Chinstrap
                   td 0.71
                   td 0.91
                   td 0.80
                   td 11
                 tr
-                  td Gentoo
+                  td.fw-bold Gentoo
                   td 0.95
                   td 0.91
                   td 0.93
                   td 23
                 tr
-                  td accuracy
+                  td.fw-bold accuracy
                   td 
                   td 
                   td 0.93
                   td 67
                 tr
-                  td macro avg
+                  td.fw-bold macro avg
                   td 0.89
                   td 0.92
                   td 0.90
                   td 67
                 tr
-                  td weighted avg
+                  td.fw-bold weighted avg
                   td 0.94
                   td 0.93
                   td 0.93
