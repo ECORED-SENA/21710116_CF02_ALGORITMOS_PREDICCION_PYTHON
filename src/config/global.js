@@ -381,7 +381,7 @@ export default {
           nombre: 'Jhon Edinson Castañeda Oviedo',
           cargo: 'Desarrollador Fullstack',
           centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+            'Regional Distrito Capital - Centro de Gestión de Mercados, Logística y Tecnologías de la Información',
         },
         {
           nombre: 'Nombre',
