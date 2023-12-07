@@ -59,7 +59,7 @@ export default {
           },
           {
             numero: '3.2',
-            titulo: 'Algoritmo de regresión con Python',
+            titulo: 'Algoritmo de clasificación con Python',
             hash: 't_3_2',
           },
           {
@@ -153,7 +153,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/prueba.pdf',
+        download: 'downloads/CF02_21710116_DU.zip',
       },
       {
         icono: 'fas fa-download',
@@ -334,7 +334,7 @@ export default {
       autores: [
         {
           nombre: 'Héctor Henry Jurado Soto',
-          cargo: 'Experto temático - Contratista',
+          cargo: 'Experto temático',
           centro:
             'Regional Cauca - Centro de Teleinformática y Producción Industrial',
         },
@@ -360,19 +360,13 @@ export default {
           centro:
             'Regional Santander - Centro Industrial del Diseño y la Manufactura',
         },
-        {
-          nombre: 'Rafael Neftalí Lizcano Reyes',
-          cargo: 'Responsable Equipo desarrollo curricular',
-          centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
-        },
       ],
     },
     {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Carlos Julian Ramirez Benitez',
           cargo: 'Diseñador de Contenidos Digitales',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
@@ -384,7 +378,7 @@ export default {
             'Regional Distrito Capital - Centro de Gestión de Mercados, Logística y Tecnologías de la Información',
         },
         {
-          nombre: 'Nombre',
+          nombre: 'Carlos Eduardo Garavito Parada',
           cargo: 'Animador y Producción audiovisual',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',

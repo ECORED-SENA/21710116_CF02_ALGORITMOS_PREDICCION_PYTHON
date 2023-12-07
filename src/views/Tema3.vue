@@ -216,7 +216,7 @@
               code.text-white array(['Chinstrap'], dtype=object)
           img.mx-auto.col-lg-4.mb-4.mb-lg-auto.order-1.order-lg-2(src="@/assets/curso/temas/tema3/lt-3.svg" style="max-width: 315px")
 
-        .col-lg-11.mx-auto.d-flex.flex-wrap(titulo="Realizar la predicción")
+        .col-lg-11.mx-auto.d-flex.flex-wrap(titulo="Observar el árbol")
           .col-lg-8.pe-lg-4.order-2.order-lg-1
             p Si se desea observar el árbol de decisión en pleno se puede hacer de varias formas, una de las cuales es importando la librería #[b export_graphviz], se definen las variables características y las variables label, de esta manera:
             .d-flex.pe-md-3.mb-3
@@ -339,7 +339,7 @@
       .tarjeta.color-acento-botones.p-4(x="86%" y="44.5%" numero="" style='background-color: #EFF0FE; border: 1px solid #9697F8')
         p.mb-0 Retornar un valor de salida que es un número de punto flotante.
       .tarjeta.color-acento-botones.p-4(x="66%" y="85%" numero="" style='background-color: #EFF0FE; border: 1px solid #9697F8')
-        p.mb-0 Retornar un valor de salida que es un número de punto flotante.
+        p.mb-0 En redes más complejas se pueden tener unas capas intermedias llamadas capas ocultas. 
       .tarjeta.color-acento-botones.p-4(x="41%" y="96%" numero="" style='background-color: #EFF0FE; border: 1px solid #9697F8')
         p.mb-0 Las neuronas se unen a través de diferentes conexiones.
 

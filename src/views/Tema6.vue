@@ -13,7 +13,7 @@
       img.mx-auto.mb-4.mb-lg-auto.col-lg-3(src="@/assets/curso/temas/tema6/img-1.png" style="max-width: 400px" data-aos="fade-left")
       .col-lg-9.ps-lg-4.me-xl-auto
         .p-md-4.p-3.mb-0.tarjeta(style="background-color: #E2F8F0" data-aos="fade-right")
-          p Entre los paquetes de Anaconda existe <b style="background-color: #E1E2FC"><em>JupyterLab</em></b> que es un editor basado en la Web con el que se crean notebooks, permite documentar los proyectos de la ciencia de datos, puesto que integra código fuente, ecuaciones, gráficos estadísticos, y de esta forma complementa proyectos de investigación, proyectos estadísticos y análisis exploratorio de datos.
+          p Entre los paquetes de Anaconda existe <b style="background-color: #E1E2FC">JupyterLab</b> que es un editor basado en la Web con el que se crean notebooks, permite documentar los proyectos de la ciencia de datos, puesto que integra código fuente, ecuaciones, gráficos estadísticos, y de esta forma complementa proyectos de investigación, proyectos estadísticos y análisis exploratorio de datos.
           p Los informes finales de la ciencia de datos con Python se pueden generar usando esta herramienta y de una vez ir mostrando los resultados a los usuarios de un algoritmo de <b><em>Machine Learning</em></b>.
           p.fw-bold.mb-0 Es realmente sencillo mostrar un gráfico producto del análisis exploratorio de datos como, por ejemplo, la regresión lineal que se muestra en la figura
     
