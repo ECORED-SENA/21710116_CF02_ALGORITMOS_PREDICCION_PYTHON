@@ -136,7 +136,7 @@
                 |drawScatterplot(X_entrenamiento, ‘bill_length_mm’, ‘bill_depth_mm’, etiquetas)
                 br
                 |drawPlotCenters(centroides)
-          img(src="@/assets/curso/temas/tema4/img-3.png" style="max-width: 715px" data-aos="fade-left")
+          img(src="@/assets/curso/temas/tema4/img-3.png", alt="Gráfica de centroides, como resultado de aplicar el comando de este paso. " style="max-width: 715px" data-aos="fade-left")
 
     Separador
     #t_4_2.titulo-segundo.color-acento-contenido

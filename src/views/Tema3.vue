@@ -45,7 +45,7 @@
         .col-lg-11.mx-auto.d-flex.flex-wrap.align-items-start(titulo="Paso 1")
           .col-lg-8.pe-lg-4.order-2.order-lg-1
             p(data-aos="fade-right") Lo primero que se debe tener en cuenta es que: 
-            p(data-aos="fade-right") linear_model: sirve para entrenar un modelo de <em>Machine Learning</em> de regresión lineal. 
+            p(data-aos="fade-right") <b>linear_model:</b> sirve para entrenar un modelo de <em>Machine Learning</em> de regresión lineal. 
               br            
               |#[b train_test_split:] sirve para dividir los datos en datos de entrenamiento y datos de prueba. 
               br              
@@ -179,7 +179,7 @@
                   |Y = df_pinguinos[‘species’]
           img.mx-auto.col-lg-4.mb-4.mb-lg-auto.order-1.order-lg-2(src="@/assets/curso/temas/tema3/lt-2.svg" style="max-width: 315px")
         
-        .col-lg-11.mx-auto.d-flex.flex-wrap(titulo="Variables predictoras")
+        .col-lg-11.mx-auto.d-flex.flex-wrap(titulo="Variables predictivas")
           .col-lg-8.pe-lg-4.order-2.order-lg-1
             p Una vez se tienen separadas las variables predictoras y las variables etiquetadas se procede a separar los datos de entrenamiento y prueba con la instrucción <b>train_test_split</b>, con parámetro X, Y y <b>test_size=0.2</b>, que significa que se tomará el 20 % de los datos para el set de pruebas, por tanto el 80 % se tomarán para el set de entrenamiento.
             p.fw-bold Esto se hace a partir del siguiente código:
@@ -354,7 +354,7 @@
               h4.mb-1 Ejemplo de redes neuronales
               p.mb-0.text-small Revise el siguiente documento en el que se muestra un ejemplo sencillo con Python, haciendo uso de las redes neuronales.
             .col-sm-auto
-              a.boton.color-acento-botones(:href="obtenerLink('/downloads/EjemploRedesneuronales.pdf')" target="_blank")
+              a.boton.color-acento-botones(:href="obtenerLink('/downloads/EjemploRedesNeuronales.pdf')" target="_blank")
                 span Descargar
                 i.fas.fa-file-download
 
