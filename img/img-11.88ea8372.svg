@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="352.5" height="48" viewBox="0 0 352.5 48">
+  <g id="Grupo_1084110" data-name="Grupo 1084110" transform="translate(-285 -4169)">
+    <text id="Puntuación_F1_" data-name="Puntuación F1 =" transform="translate(285 4197.5)" fill="#12263f" font-size="16" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="0" y="0">Puntuación F1 =</tspan></text>
+    <text id="Precisión_Sensitividad" data-name="Precisión + Sensitividad" transform="translate(430 4213)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Precisión + Sensitividad</tspan></text>
+    <text id="_2_Precisión_Sensitividad_" data-name="2∗Precisión∗Sensitividad " transform="translate(431 4186)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">2</tspan><tspan y="0" font-family="SegoeUISymbol, Segoe UI Symbol">∗</tspan><tspan y="0">Precisión</tspan><tspan y="0" font-family="SegoeUISymbol, Segoe UI Symbol">∗</tspan><tspan y="0">Sensitividad </tspan></text>
+    <path id="Trazado_829314" data-name="Trazado 829314" d="M2667-8570.979h216.5" transform="translate(-2246 12765)" fill="none" stroke="#000" stroke-width="1"/>
+  </g>
+</svg>

@@ -1,0 +1,405 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="324.47" height="186.555" viewBox="0 0 324.47 186.555">
+  <g id="graph0" transform="translate(4 905)">
+    <path id="Trazado_825051" data-name="Trazado 825051" d="M-4-718.445V-905H320.47v186.555Z" fill="#fff"/>
+    <g id="node1" transform="translate(62.392 -904.179)">
+      <path id="Trazado_825052" data-name="Trazado 825052" d="M350.7-901H321.963a2.648,2.648,0,0,0-2.463,2.463v12.109a2.648,2.648,0,0,0,2.463,2.463H350.7a2.648,2.648,0,0,0,2.463-2.463v-12.109A2.648,2.648,0,0,0,350.7-901" transform="translate(-319.5 901)" fill="#fdf4ee" stroke="#000" stroke-width="1"/>
+      <text id="bill_length_mm_42.35" data-name="bill_length_mm ≤ 42.35" transform="translate(1.642 1.862)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">bill_length_mm ≤ 42.35</tspan></text>
+      <text id="gini_0.64" data-name="gini = 0.64" transform="translate(9.954 4.94)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">gini = 0.64</tspan></text>
+      <text id="samples_266" data-name="samples = 266" transform="translate(7.08 8.019)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">samples = 266</tspan></text>
+      <text id="value_113_54_99_" data-name="value = [113, 54, 99]" transform="translate(3.489 11.097)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">value = [113, 54, 99]</tspan></text>
+      <text id="class_Adelie" data-name="class = Adelie" transform="translate(7.594 14.176)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">class = Adelie</tspan></text>
+    </g>
+    <g id="node2" transform="translate(38.791 -879.757)">
+      <path id="Trazado_825053" data-name="Trazado 825053" d="M233.643-782h-26.68a2.648,2.648,0,0,0-2.463,2.463v12.109a2.648,2.648,0,0,0,2.463,2.463h26.68a2.648,2.648,0,0,0,2.463-2.463v-12.109A2.648,2.648,0,0,0,233.643-782" transform="translate(-204.5 782)" fill="#e68641" stroke="#000" stroke-width="1"/>
+      <text id="bill_depth_mm_15.1" data-name="bill_depth_mm ≤ 15.1" transform="translate(1.642 1.862)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">bill_depth_mm ≤ 15.1</tspan></text>
+      <text id="gini_0.072" data-name="gini = 0.072" transform="translate(8.107 4.94)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">gini = 0.072</tspan></text>
+      <text id="samples_108" data-name="samples = 108" transform="translate(6.054 8.019)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">samples = 108</tspan></text>
+      <text id="value_104_1_3_" data-name="value = [104, 1, 3]" transform="translate(4.207 11.097)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">value = [104, 1, 3]</tspan></text>
+      <text id="class_Adelie-2" data-name="class = Adelie" transform="translate(6.567 14.176)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">class = Adelie</tspan></text>
+    </g>
+    <g id="edge1" transform="translate(60.314 -887.126)">
+      <path id="Trazado_825054" data-name="Trazado 825054" d="M336.473-817.907l-6.041,5.89" transform="translate(-326.111 817.907)" fill="none" stroke="#000" stroke-width="1"/>
+      <path id="Trazado_825055" data-name="Trazado 825055" d="M325.031-790.479l-1.971.918.968-1.947Z" transform="translate(-320.252 796.926)" stroke="#000" stroke-width="1"/>
+      <text id="True" transform="translate(1 1.736)" font-size="1" font-family="ArialMT, Arial"><tspan x="-1.01" y="0">True</tspan></text>
+    </g>
+    <g id="node9" transform="translate(87.225 -879.757)">
+      <path id="Trazado_825056" data-name="Trazado 825056" d="M471.285-782H442.963a2.648,2.648,0,0,0-2.463,2.463v12.109a2.648,2.648,0,0,0,2.463,2.463h28.322a2.648,2.648,0,0,0,2.463-2.463v-12.109A2.648,2.648,0,0,0,471.285-782" transform="translate(-440.5 782)" fill="#cbaef4" stroke="#000" stroke-width="1"/>
+      <text id="bill_depth_mm_16.55" data-name="bill_depth_mm ≤ 16.55" transform="translate(1.642 1.862)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">bill_depth_mm ≤ 16.55</tspan></text>
+      <text id="gini_0.515" data-name="gini = 0.515" transform="translate(8.928 4.94)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">gini = 0.515</tspan></text>
+      <text id="samples_158" data-name="samples = 158" transform="translate(6.875 8.019)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">samples = 158</tspan></text>
+      <text id="value_9_53_96_" data-name="value = [9, 53, 96]" transform="translate(5.028 11.097)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">value = [9, 53, 96]</tspan></text>
+      <text id="class_Gentoo" data-name="class = Gentoo" transform="translate(6.67 14.176)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">class = Gentoo</tspan></text>
+    </g>
+    <g id="edge8" transform="translate(87.765 -887.126)">
+      <path id="Trazado_825057" data-name="Trazado 825057" d="M443.133-817.907l6.041,5.89" transform="translate(-443.133 817.907)" fill="none" stroke="#000" stroke-width="1"/>
+      <path id="Trazado_825058" data-name="Trazado 825058" d="M471.34-791.508l.968,1.947-1.971-.918Z" transform="translate(-464.754 796.926)" stroke="#000" stroke-width="1"/>
+      <text id="False" transform="translate(5 1.736)" font-size="1" font-family="ArialMT, Arial"><tspan x="-1.223" y="0">False</tspan></text>
+    </g>
+    <g id="node3" transform="translate(10.982 -853.795)">
+      <path id="Trazado_825059" data-name="Trazado 825059" d="M89.728-655.5H71.463A2.648,2.648,0,0,0,69-653.037v9.03a2.648,2.648,0,0,0,2.463,2.463H89.728a2.648,2.648,0,0,0,2.463-2.463v-9.03a2.648,2.648,0,0,0-2.463-2.463" transform="translate(-69 655.5)" fill="#8139e5" stroke="#000" stroke-width="1"/>
+      <text id="gini_0.0" data-name="gini = 0.0" transform="translate(5.644 1.862)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">gini = 0.0</tspan></text>
+      <text id="samples_3" data-name="samples = 3" transform="translate(3.489 4.94)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">samples = 3</tspan></text>
+      <text id="value_0_0_3_" data-name="value = [0, 0, 3]" transform="translate(1.642 8.019)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">value = [0, 0, 3]</tspan></text>
+      <text id="class_Gentoo-2" data-name="class = Gentoo" transform="translate(1.642 11.097)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">class = Gentoo</tspan></text>
+    </g>
+    <g id="edge2" transform="translate(31.653 -862.703)">
+      <path id="Trazado_825060" data-name="Trazado 825060" d="M188.045-698.907l-10.157,7.617" transform="translate(-176.212 698.907)" fill="none" stroke="#000" stroke-width="1"/>
+      <path id="Trazado_825061" data-name="Trazado 825061" d="M171.8-663.318l-2.073.657,1.211-1.806Z" transform="translate(-169.723 671.535)" stroke="#000" stroke-width="1"/>
+    </g>
+    <g id="node4" transform="translate(37.97 -855.334)">
+      <path id="Trazado_825062" data-name="Trazado 825062" d="M231.285-663H202.963a2.648,2.648,0,0,0-2.463,2.463v12.109a2.648,2.648,0,0,0,2.463,2.463h28.322a2.648,2.648,0,0,0,2.463-2.463v-12.109A2.648,2.648,0,0,0,231.285-663" transform="translate(-200.5 663)" fill="#e5823b" stroke="#000" stroke-width="1"/>
+      <text id="bill_depth_mm_16.65" data-name="bill_depth_mm ≤ 16.65" transform="translate(1.642 1.862)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">bill_depth_mm ≤ 16.65</tspan></text>
+      <text id="gini_0.019" data-name="gini = 0.019" transform="translate(8.928 4.94)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">gini = 0.019</tspan></text>
+      <text id="samples_105" data-name="samples = 105" transform="translate(6.875 8.019)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">samples = 105</tspan></text>
+      <text id="value_104_1_0_" data-name="value = [104, 1, 0]" transform="translate(5.028 11.097)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">value = [104, 1, 0]</tspan></text>
+      <text id="class_Adelie-3" data-name="class = Adelie" transform="translate(7.388 14.176)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">class = Adelie</tspan></text>
+    </g>
+    <g id="edge3" transform="translate(53.875 -862.703)">
+      <path id="Trazado_825063" data-name="Trazado 825063" d="M281.5-698.907v5.255" transform="translate(-280.782 698.907)" fill="none" stroke="#000" stroke-width="1"/>
+      <path id="Trazado_825064" data-name="Trazado 825064" d="M279.437-673.021l-.718,2.052L278-673.021Z" transform="translate(-278 678.334)" stroke="#000" stroke-width="1"/>
+    </g>
+    <g id="node5" transform="translate(6.364 -830.912)">
+      <path id="Trazado_825065" data-name="Trazado 825065" d="M76.053-544H48.963a2.648,2.648,0,0,0-2.463,2.463v12.109a2.648,2.648,0,0,0,2.463,2.463h27.09a2.648,2.648,0,0,0,2.463-2.463v-12.109A2.648,2.648,0,0,0,76.053-544" transform="translate(-46.5 544)" fill="#e89152" stroke="#000" stroke-width="1"/>
+      <text id="bill_length_mm_39.5" data-name="bill_length_mm ≤ 39.5" transform="translate(1.642 1.862)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">bill_length_mm ≤ 39.5</tspan></text>
+      <text id="gini_0.198" data-name="gini = 0.198" transform="translate(8.312 4.94)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">gini = 0.198</tspan></text>
+      <text id="samples_9" data-name="samples = 9" transform="translate(7.901 8.019)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">samples = 9</tspan></text>
+      <text id="value_8_1_0_" data-name="value = [8, 1, 0]" transform="translate(6.054 11.097)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">value = [8, 1, 0]</tspan></text>
+      <text id="class_Adelie-4" data-name="class = Adelie" transform="translate(6.773 14.176)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">class = Adelie</tspan></text>
+    </g>
+    <g id="edge4" transform="translate(33.531 -838.281)">
+      <path id="Trazado_825066" data-name="Trazado 825066" d="M195.23-579.907l-8.212,6.119" transform="translate(-185.347 579.907)" fill="none" stroke="#000" stroke-width="1"/>
+      <path id="Trazado_825067" data-name="Trazado 825067" d="M180.949-551.651l-2.075.65,1.216-1.8Z" transform="translate(-178.874 558.366)" stroke="#000" stroke-width="1"/>
+    </g>
+    <g id="node8" transform="translate(42.177 -829.372)">
+      <path id="Trazado_825068" data-name="Trazado 825068" d="M243.37-536.5H223.463A2.648,2.648,0,0,0,221-534.037v9.03a2.648,2.648,0,0,0,2.463,2.463H243.37a2.648,2.648,0,0,0,2.463-2.463v-9.03a2.648,2.648,0,0,0-2.463-2.463" transform="translate(-221 536.5)" fill="#e58139" stroke="#000" stroke-width="1"/>
+      <text id="gini_0.0-2" data-name="gini = 0.0" transform="translate(6.465 1.862)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">gini = 0.0</tspan></text>
+      <text id="samples_96" data-name="samples = 96" transform="translate(3.489 4.94)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">samples = 96</tspan></text>
+      <text id="value_96_0_0_" data-name="value = [96, 0, 0]" transform="translate(1.642 8.019)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">value = [96, 0, 0]</tspan></text>
+      <text id="class_Adelie-5" data-name="class = Adelie" transform="translate(3.181 11.097)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">class = Adelie</tspan></text>
+    </g>
+    <g id="edge7" transform="translate(53.875 -838.281)">
+      <path id="Trazado_825069" data-name="Trazado 825069" d="M281.5-579.907v6.8" transform="translate(-280.782 579.907)" fill="none" stroke="#000" stroke-width="1"/>
+      <path id="Trazado_825070" data-name="Trazado 825070" d="M279.437-546.667l-.718,2.052L278-546.667Z" transform="translate(-278 553.489)" stroke="#000" stroke-width="1"/>
+    </g>
+    <g id="node6" transform="translate(-3.179 -804.95)">
+      <path id="Trazado_825071" data-name="Trazado 825071" d="M20.728-417.5H2.463A2.648,2.648,0,0,0,0-415.037v9.03a2.648,2.648,0,0,0,2.463,2.463H20.728a2.648,2.648,0,0,0,2.463-2.463v-9.03a2.648,2.648,0,0,0-2.463-2.463" transform="translate(0 417.5)" fill="#e58139" stroke="#000" stroke-width="1"/>
+      <text id="gini_0.0-3" data-name="gini = 0.0" transform="translate(5.644 1.862)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">gini = 0.0</tspan></text>
+      <text id="samples_8" data-name="samples = 8" transform="translate(3.489 4.94)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">samples = 8</tspan></text>
+      <text id="value_8_0_0_" data-name="value = [8, 0, 0]" transform="translate(1.642 8.019)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">value = [8, 0, 0]</tspan></text>
+      <text id="class_Adelie-6" data-name="class = Adelie" transform="translate(2.36 11.097)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">class = Adelie</tspan></text>
+    </g>
+    <g id="edge5" transform="translate(12.373 -813.858)">
+      <path id="Trazado_825072" data-name="Trazado 825072" d="M84.986-460.907l-4.111,7.074" transform="translate(-79.829 460.907)" fill="none" stroke="#000" stroke-width="1"/>
+      <path id="Trazado_825073" data-name="Trazado 825073" d="M77.429-427.35l-1.652,1.413.41-2.135Z" transform="translate(-75.776 434.811)" stroke="#000" stroke-width="1"/>
+    </g>
+    <g id="node7" transform="translate(23.706 -804.95)">
+      <path id="Trazado_825074" data-name="Trazado 825074" d="M154.191-417.5H133.463A2.648,2.648,0,0,0,131-415.037v9.03a2.648,2.648,0,0,0,2.463,2.463h20.728a2.648,2.648,0,0,0,2.463-2.463v-9.03a2.648,2.648,0,0,0-2.463-2.463" transform="translate(-131 417.5)" fill="#39e581" stroke="#000" stroke-width="1"/>
+      <text id="gini_0.0-4" data-name="gini = 0.0" transform="translate(6.875 1.862)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">gini = 0.0</tspan></text>
+      <text id="samples_1" data-name="samples = 1" transform="translate(4.72 4.94)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">samples = 1</tspan></text>
+      <text id="value_0_1_0_" data-name="value = [0, 1, 0]" transform="translate(2.873 8.019)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">value = [0, 1, 0]</tspan></text>
+      <text id="class_Chinstrap" data-name="class = Chinstrap" transform="translate(1.642 11.097)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">class = Chinstrap</tspan></text>
+    </g>
+    <g id="edge6" transform="translate(27.285 -813.858)">
+      <path id="Trazado_825075" data-name="Trazado 825075" d="M148.439-460.907l4.172,7.074" transform="translate(-148.439 460.907)" fill="none" stroke="#000" stroke-width="1"/>
+      <path id="Trazado_825076" data-name="Trazado 825076" d="M167.083-428.059l.424,2.133-1.661-1.4Z" transform="translate(-162.273 434.8)" stroke="#000" stroke-width="1"/>
+    </g>
+    <g id="node10" transform="translate(87.225 -855.334)">
+      <path id="Trazado_825077" data-name="Trazado 825077" d="M471.285-663H442.963a2.648,2.648,0,0,0-2.463,2.463v12.109a2.648,2.648,0,0,0,2.463,2.463h28.322a2.648,2.648,0,0,0,2.463-2.463v-12.109A2.648,2.648,0,0,0,471.285-663" transform="translate(-440.5 663)" fill="#823be5" stroke="#000" stroke-width="1"/>
+      <text id="bill_depth_mm_16.35" data-name="bill_depth_mm ≤ 16.35" transform="translate(1.642 1.862)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">bill_depth_mm ≤ 16.35</tspan></text>
+      <text id="gini_0.022" data-name="gini = 0.022" transform="translate(8.928 4.94)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">gini = 0.022</tspan></text>
+      <text id="samples_92" data-name="samples = 92" transform="translate(7.696 8.019)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">samples = 92</tspan></text>
+      <text id="value_0_1_91_" data-name="value = [0, 1, 91]" transform="translate(5.849 11.097)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">value = [0, 1, 91]</tspan></text>
+      <text id="class_Gentoo-3" data-name="class = Gentoo" transform="translate(6.67 14.176)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">class = Gentoo</tspan></text>
+    </g>
+    <g id="edge9" transform="translate(103.131 -862.703)">
+      <path id="Trazado_825078" data-name="Trazado 825078" d="M521.5-698.907v5.255" transform="translate(-520.782 698.907)" fill="none" stroke="#000" stroke-width="1"/>
+      <path id="Trazado_825079" data-name="Trazado 825079" d="M519.437-673.021l-.718,2.052L518-673.021Z" transform="translate(-518 678.334)" stroke="#000" stroke-width="1"/>
+    </g>
+    <g id="node17" transform="translate(151.257 -855.334)">
+      <path id="Trazado_825080" data-name="Trazado 825080" d="M783.7-663H754.963a2.648,2.648,0,0,0-2.463,2.463v12.109a2.648,2.648,0,0,0,2.463,2.463H783.7a2.648,2.648,0,0,0,2.463-2.463v-12.109A2.648,2.648,0,0,0,783.7-663" transform="translate(-752.5 663)" fill="#6aeba0" stroke="#000" stroke-width="1"/>
+      <text id="bill_length_mm_44.75" data-name="bill_length_mm ≤ 44.75" transform="translate(1.642 1.862)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">bill_length_mm ≤ 44.75</tspan></text>
+      <text id="gini_0.355" data-name="gini = 0.355" transform="translate(9.133 4.94)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">gini = 0.355</tspan></text>
+      <text id="samples_66" data-name="samples = 66" transform="translate(7.901 8.019)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">samples = 66</tspan></text>
+      <text id="value_9_52_5_" data-name="value = [9, 52, 5]" transform="translate(6.054 11.097)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">value = [9, 52, 5]</tspan></text>
+      <text id="class_Chinstrap-2" data-name="class = Chinstrap" transform="translate(5.644 14.176)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">class = Chinstrap</tspan></text>
+    </g>
+    <g id="edge16" transform="translate(120.475 -864.819)">
+      <path id="Trazado_825081" data-name="Trazado 825081" d="M602.512-709.217l28.8,10.764" transform="translate(-602.512 709.217)" fill="none" stroke="#000" stroke-width="1"/>
+      <path id="Trazado_825082" data-name="Trazado 825082" d="M742.378-659.944l1.671,1.391-2.174-.046Z" transform="translate(-713.273 670.056)" stroke="#000" stroke-width="1"/>
+    </g>
+    <g id="node11" transform="translate(70.704 -829.372)">
+      <path id="Trazado_825083" data-name="Trazado 825083" d="M382.37-536.5H362.463A2.648,2.648,0,0,0,360-534.037v9.03a2.648,2.648,0,0,0,2.463,2.463H382.37a2.648,2.648,0,0,0,2.463-2.463v-9.03a2.648,2.648,0,0,0-2.463-2.463" transform="translate(-360 536.5)" fill="#8139e5" stroke="#000" stroke-width="1"/>
+      <text id="gini_0.0-5" data-name="gini = 0.0" transform="translate(6.465 1.862)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">gini = 0.0</tspan></text>
+      <text id="samples_89" data-name="samples = 89" transform="translate(3.489 4.94)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">samples = 89</tspan></text>
+      <text id="value_0_0_89_" data-name="value = [0, 0, 89]" transform="translate(1.642 8.019)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">value = [0, 0, 89]</tspan></text>
+      <text id="class_Gentoo-4" data-name="class = Gentoo" transform="translate(2.463 11.097)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">class = Gentoo</tspan></text>
+    </g>
+    <g id="edge10" transform="translate(88.996 -838.281)">
+      <path id="Trazado_825084" data-name="Trazado 825084" d="M462.126-579.907l-6.283,7.279" transform="translate(-454.465 579.907)" fill="none" stroke="#000" stroke-width="1"/>
+      <path id="Trazado_825085" data-name="Trazado 825085" d="M451.016-545.585l-1.885,1.084.8-2.023Z" transform="translate(-449.131 553.375)" stroke="#000" stroke-width="1"/>
+    </g>
+    <g id="node12" transform="translate(99.334 -830.912)">
+      <path id="Trazado_825086" data-name="Trazado 825086" d="M530.7-544H501.963a2.648,2.648,0,0,0-2.463,2.463v12.109a2.648,2.648,0,0,0,2.463,2.463H530.7a2.648,2.648,0,0,0,2.463-2.463v-12.109A2.648,2.648,0,0,0,530.7-544" transform="translate(-499.5 544)" fill="#c09cf2" stroke="#000" stroke-width="1"/>
+      <text id="bill_length_mm_46.65" data-name="bill_length_mm ≤ 46.65" transform="translate(1.642 1.862)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">bill_length_mm ≤ 46.65</tspan></text>
+      <text id="gini_0.444" data-name="gini = 0.444" transform="translate(9.133 4.94)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">gini = 0.444</tspan></text>
+      <text id="samples_3-2" data-name="samples = 3" transform="translate(8.722 8.019)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">samples = 3</tspan></text>
+      <text id="value_0_1_2_" data-name="value = [0, 1, 2]" transform="translate(6.875 11.097)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">value = [0, 1, 2]</tspan></text>
+      <text id="class_Gentoo-5" data-name="class = Gentoo" transform="translate(6.875 14.176)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">class = Gentoo</tspan></text>
+    </g>
+    <g id="edge11" transform="translate(108.121 -838.281)">
+      <path id="Trazado_825087" data-name="Trazado 825087" d="M542.317-579.907l2.813,5.486" transform="translate(-542.317 579.907)" fill="none" stroke="#000" stroke-width="1"/>
+      <path id="Trazado_825088" data-name="Trazado 825088" d="M554.321-554.516l.3,2.154-1.576-1.5Z" transform="translate(-550.842 559.727)" stroke="#000" stroke-width="1"/>
+    </g>
+    <g id="node13" transform="translate(72.551 -804.95)">
+      <path id="Trazado_825089" data-name="Trazado 825089" d="M389.728-417.5H371.463A2.648,2.648,0,0,0,369-415.037v9.03a2.648,2.648,0,0,0,2.463,2.463h18.266a2.648,2.648,0,0,0,2.463-2.463v-9.03a2.648,2.648,0,0,0-2.463-2.463" transform="translate(-369 417.5)" fill="#8139e5" stroke="#000" stroke-width="1"/>
+      <text id="gini_0.0-6" data-name="gini = 0.0" transform="translate(5.644 1.862)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">gini = 0.0</tspan></text>
+      <text id="samples_1-2" data-name="samples = 1" transform="translate(3.489 4.94)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">samples = 1</tspan></text>
+      <text id="value_0_0_1_" data-name="value = [0, 0, 1]" transform="translate(1.642 8.019)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">value = [0, 0, 1]</tspan></text>
+      <text id="class_Gentoo-6" data-name="class = Gentoo" transform="translate(1.642 11.097)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">class = Gentoo</tspan></text>
+    </g>
+    <g id="edge12" transform="translate(93.223 -813.858)">
+      <path id="Trazado_825090" data-name="Trazado 825090" d="M488.045-460.907l-10.157,7.617" transform="translate(-476.212 460.907)" fill="none" stroke="#000" stroke-width="1"/>
+      <path id="Trazado_825091" data-name="Trazado 825091" d="M471.8-425.318l-2.073.657,1.211-1.806Z" transform="translate(-469.723 433.535)" stroke="#000" stroke-width="1"/>
+    </g>
+    <g id="node14" transform="translate(99.539 -806.489)">
+      <path id="Trazado_825092" data-name="Trazado 825092" d="M531.285-425H502.963a2.648,2.648,0,0,0-2.463,2.463v12.109a2.648,2.648,0,0,0,2.463,2.463h28.322a2.649,2.649,0,0,0,2.463-2.463v-12.109A2.649,2.649,0,0,0,531.285-425" transform="translate(-500.5 425)" fill="#fff" stroke="#000" stroke-width="1"/>
+      <text id="bill_depth_mm_16.45" data-name="bill_depth_mm ≤ 16.45" transform="translate(1.642 1.862)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">bill_depth_mm ≤ 16.45</tspan></text>
+      <text id="gini_0.5" data-name="gini = 0.5" transform="translate(10.672 4.94)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">gini = 0.5</tspan></text>
+      <text id="samples_2" data-name="samples = 2" transform="translate(8.517 8.019)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">samples = 2</tspan></text>
+      <text id="value_0_1_1_" data-name="value = [0, 1, 1]" transform="translate(6.67 11.097)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">value = [0, 1, 1]</tspan></text>
+      <text id="class_Chinstrap-3" data-name="class = Chinstrap" transform="translate(5.439 14.176)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">class = Chinstrap</tspan></text>
+    </g>
+    <g id="edge13" transform="translate(115.444 -813.858)">
+      <path id="Trazado_825093" data-name="Trazado 825093" d="M581.5-460.907v5.255" transform="translate(-580.782 460.907)" fill="none" stroke="#000" stroke-width="1"/>
+      <path id="Trazado_825094" data-name="Trazado 825094" d="M579.437-435.021l-.718,2.052L578-435.021Z" transform="translate(-578 440.334)" stroke="#000" stroke-width="1"/>
+    </g>
+    <g id="node15" transform="translate(79.324 -780.527)">
+      <path id="Trazado_825095" data-name="Trazado 825095" d="M425.191-298.5H404.463A2.648,2.648,0,0,0,402-296.037v9.03a2.648,2.648,0,0,0,2.463,2.463h20.728a2.648,2.648,0,0,0,2.463-2.463v-9.03a2.648,2.648,0,0,0-2.463-2.463" transform="translate(-402 298.5)" fill="#39e581" stroke="#000" stroke-width="1"/>
+      <text id="gini_0.0-7" data-name="gini = 0.0" transform="translate(6.875 1.862)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">gini = 0.0</tspan></text>
+      <text id="samples_1-3" data-name="samples = 1" transform="translate(4.72 4.94)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">samples = 1</tspan></text>
+      <text id="value_0_1_0_2" data-name="value = [0, 1, 0]" transform="translate(2.873 8.019)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">value = [0, 1, 0]</tspan></text>
+      <text id="class_Chinstrap-4" data-name="class = Chinstrap" transform="translate(1.642 11.097)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">class = Chinstrap</tspan></text>
+    </g>
+    <g id="edge14" transform="translate(98.958 -789.436)">
+      <path id="Trazado_825096" data-name="Trazado 825096" d="M512.194-341.907l-7.414,7.414" transform="translate(-503.32 341.907)" fill="none" stroke="#000" stroke-width="1"/>
+      <path id="Trazado_825097" data-name="Trazado 825097" d="M499.626-307.2l-1.959.943.943-1.959Z" transform="translate(-497.667 315.128)" stroke="#000" stroke-width="1"/>
+    </g>
+    <g id="node16" transform="translate(108.672 -780.527)">
+      <path id="Trazado_825098" data-name="Trazado 825098" d="M565.728-298.5H547.463A2.648,2.648,0,0,0,545-296.037v9.03a2.648,2.648,0,0,0,2.463,2.463h18.266a2.648,2.648,0,0,0,2.463-2.463v-9.03a2.648,2.648,0,0,0-2.463-2.463" transform="translate(-545 298.5)" fill="#8139e5" stroke="#000" stroke-width="1"/>
+      <text id="gini_0.0-8" data-name="gini = 0.0" transform="translate(5.644 1.862)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">gini = 0.0</tspan></text>
+      <text id="samples_1-4" data-name="samples = 1" transform="translate(3.489 4.94)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">samples = 1</tspan></text>
+      <text id="value_0_0_1_2" data-name="value = [0, 0, 1]" transform="translate(1.642 8.019)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">value = [0, 0, 1]</tspan></text>
+      <text id="class_Gentoo-7" data-name="class = Gentoo" transform="translate(1.642 11.097)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">class = Gentoo</tspan></text>
+    </g>
+    <g id="edge15" transform="translate(117.587 -789.436)">
+      <path id="Trazado_825099" data-name="Trazado 825099" d="M588.439-341.907l1.162,6.8" transform="translate(-588.439 341.907)" fill="none" stroke="#000" stroke-width="1"/>
+      <path id="Trazado_825100" data-name="Trazado 825100" d="M592.111-309.114l-.362,2.144-1.054-1.9Z" transform="translate(-590.232 315.844)" stroke="#000" stroke-width="1"/>
+    </g>
+    <g id="node18" transform="translate(151.462 -830.912)">
+      <path id="Trazado_825101" data-name="Trazado 825101" d="M784.285-544H755.963a2.648,2.648,0,0,0-2.463,2.463v12.109a2.648,2.648,0,0,0,2.463,2.463h28.322a2.648,2.648,0,0,0,2.463-2.463v-12.109A2.648,2.648,0,0,0,784.285-544" transform="translate(-753.5 544)" fill="#f0b78e" stroke="#000" stroke-width="1"/>
+      <text id="bill_depth_mm_17.45" data-name="bill_depth_mm ≤ 17.45" transform="translate(1.642 1.862)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">bill_depth_mm ≤ 17.45</tspan></text>
+      <text id="gini_0.42" data-name="gini = 0.42" transform="translate(9.748 4.94)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">gini = 0.42</tspan></text>
+      <text id="samples_10" data-name="samples = 10" transform="translate(7.696 8.019)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">samples = 10</tspan></text>
+      <text id="value_7_3_0_" data-name="value = [7, 3, 0]" transform="translate(6.67 11.097)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">value = [7, 3, 0]</tspan></text>
+      <text id="class_Adelie-7" data-name="class = Adelie" transform="translate(7.388 14.176)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">class = Adelie</tspan></text>
+    </g>
+    <g id="edge17" transform="translate(167.368 -838.281)">
+      <path id="Trazado_825102" data-name="Trazado 825102" d="M834.5-579.907v5.255" transform="translate(-833.782 579.907)" fill="none" stroke="#000" stroke-width="1"/>
+      <path id="Trazado_825103" data-name="Trazado 825103" d="M832.437-554.021l-.718,2.052L831-554.021Z" transform="translate(-831 559.334)" stroke="#000" stroke-width="1"/>
+    </g>
+    <g id="node25" transform="translate(214.058 -830.912)">
+      <path id="Trazado_825104" data-name="Trazado 825104" d="M1087.643-544h-26.68a2.648,2.648,0,0,0-2.463,2.463v12.109a2.648,2.648,0,0,0,2.463,2.463h26.68a2.648,2.648,0,0,0,2.463-2.463v-12.109a2.648,2.648,0,0,0-2.463-2.463" transform="translate(-1058.5 544)" fill="#54e992" stroke="#000" stroke-width="1"/>
+      <text id="bill_depth_mm_17.2" data-name="bill_depth_mm ≤ 17.2" transform="translate(1.642 1.862)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">bill_depth_mm ≤ 17.2</tspan></text>
+      <text id="gini_0.225" data-name="gini = 0.225" transform="translate(8.107 4.94)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">gini = 0.225</tspan></text>
+      <text id="samples_56" data-name="samples = 56" transform="translate(6.875 8.019)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">samples = 56</tspan></text>
+      <text id="value_2_49_5_" data-name="value = [2, 49, 5]" transform="translate(5.028 11.097)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">value = [2, 49, 5]</tspan></text>
+      <text id="class_Chinstrap-5" data-name="class = Chinstrap" transform="translate(4.618 14.176)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">class = Chinstrap</tspan></text>
+    </g>
+    <g id="edge24" transform="translate(184.966 -840.05)">
+      <path id="Trazado_825105" data-name="Trazado 825105" d="M916.75-588.529,943.832-578" transform="translate(-916.75 588.529)" fill="none" stroke="#000" stroke-width="1"/>
+      <path id="Trazado_825106" data-name="Trazado 825106" d="M1048.2-540.406l1.654,1.413-2.173-.074Z" transform="translate(-1020.809 550.282)" stroke="#000" stroke-width="1"/>
+    </g>
+    <g id="node19" transform="translate(136.583 -804.95)">
+      <path id="Trazado_825107" data-name="Trazado 825107" d="M704.191-417.5H683.463A2.649,2.649,0,0,0,681-415.037v9.03a2.648,2.648,0,0,0,2.463,2.463h20.728a2.648,2.648,0,0,0,2.463-2.463v-9.03a2.648,2.648,0,0,0-2.463-2.463" transform="translate(-681 417.5)" fill="#39e581" stroke="#000" stroke-width="1"/>
+      <text id="gini_0.0-9" data-name="gini = 0.0" transform="translate(6.875 1.862)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">gini = 0.0</tspan></text>
+      <text id="samples_2-2" data-name="samples = 2" transform="translate(4.72 4.94)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">samples = 2</tspan></text>
+      <text id="value_0_2_0_" data-name="value = [0, 2, 0]" transform="translate(2.873 8.019)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">value = [0, 2, 0]</tspan></text>
+      <text id="class_Chinstrap-6" data-name="class = Chinstrap" transform="translate(1.642 11.097)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">class = Chinstrap</tspan></text>
+    </g>
+    <g id="edge18" transform="translate(154.704 -813.858)">
+      <path id="Trazado_825108" data-name="Trazado 825108" d="M781.21-460.907,775.6-453.7" transform="translate(-774.308 460.907)" fill="none" stroke="#000" stroke-width="1"/>
+      <path id="Trazado_825109" data-name="Trazado 825109" d="M771.124-426.827l-1.827,1.179.693-2.061Z" transform="translate(-769.297 434.522)" stroke="#000" stroke-width="1"/>
+    </g>
+    <g id="node20" transform="translate(166.034 -806.489)">
+      <path id="Trazado_825110" data-name="Trazado 825110" d="M855.7-425H826.963a2.648,2.648,0,0,0-2.463,2.463v12.109a2.648,2.648,0,0,0,2.463,2.463H855.7a2.648,2.648,0,0,0,2.463-2.463v-12.109A2.648,2.648,0,0,0,855.7-425" transform="translate(-824.5 425)" fill="#e99355" stroke="#000" stroke-width="1"/>
+      <text id="bill_length_mm_43.35" data-name="bill_length_mm ≤ 43.35" transform="translate(1.642 1.862)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">bill_length_mm ≤ 43.35</tspan></text>
+      <text id="gini_0.219" data-name="gini = 0.219" transform="translate(9.133 4.94)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">gini = 0.219</tspan></text>
+      <text id="samples_8-2" data-name="samples = 8" transform="translate(8.722 8.019)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">samples = 8</tspan></text>
+      <text id="value_7_1_0_" data-name="value = [7, 1, 0]" transform="translate(6.875 11.097)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">value = [7, 1, 0]</tspan></text>
+      <text id="class_Adelie-8" data-name="class = Adelie" transform="translate(7.594 14.176)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">class = Adelie</tspan></text>
+    </g>
+    <g id="edge19" transform="translate(173.213 -813.858)">
+      <path id="Trazado_825111" data-name="Trazado 825111" d="M859.48-460.907l3.447,5.6" transform="translate(-859.48 460.907)" fill="none" stroke="#000" stroke-width="1"/>
+      <path id="Trazado_825112" data-name="Trazado 825112" d="M874.566-435.372l.464,2.124-1.687-1.371Z" transform="translate(-870.497 440.613)" stroke="#000" stroke-width="1"/>
+    </g>
+    <g id="node21" transform="translate(139.867 -780.527)">
+      <path id="Trazado_825113" data-name="Trazado 825113" d="M717.728-298.5H699.463A2.648,2.648,0,0,0,697-296.037v9.03a2.648,2.648,0,0,0,2.463,2.463h18.266a2.648,2.648,0,0,0,2.463-2.463v-9.03a2.648,2.648,0,0,0-2.463-2.463" transform="translate(-697 298.5)" fill="#e58139" stroke="#000" stroke-width="1"/>
+      <text id="gini_0.0-10" data-name="gini = 0.0" transform="translate(5.644 1.862)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">gini = 0.0</tspan></text>
+      <text id="samples_5" data-name="samples = 5" transform="translate(3.489 4.94)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">samples = 5</tspan></text>
+      <text id="value_5_0_0_" data-name="value = [5, 0, 0]" transform="translate(1.642 8.019)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">value = [5, 0, 0]</tspan></text>
+      <text id="class_Adelie-9" data-name="class = Adelie" transform="translate(2.36 11.097)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">class = Adelie</tspan></text>
+    </g>
+    <g id="edge20" transform="translate(160.364 -789.436)">
+      <path id="Trazado_825114" data-name="Trazado 825114" d="M814.841-341.907l-9.961,7.617" transform="translate(-803.237 341.907)" fill="none" stroke="#000" stroke-width="1"/>
+      <path id="Trazado_825115" data-name="Trazado 825115" d="M798.939-306.381l-2.067.676,1.194-1.817Z" transform="translate(-796.872 314.579)" stroke="#000" stroke-width="1"/>
+    </g>
+    <g id="node22" transform="translate(166.855 -782.067)">
+      <path id="Trazado_825116" data-name="Trazado 825116" d="M858.053-306h-27.09a2.648,2.648,0,0,0-2.463,2.463v12.109a2.648,2.648,0,0,0,2.463,2.463h27.09a2.648,2.648,0,0,0,2.463-2.463v-12.109A2.648,2.648,0,0,0,858.053-306" transform="translate(-828.5 306)" fill="#f2c09c" stroke="#000" stroke-width="1"/>
+      <text id="bill_length_mm_43.8" data-name="bill_length_mm ≤ 43.8" transform="translate(1.642 1.862)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">bill_length_mm ≤ 43.8</tspan></text>
+      <text id="gini_0.444-2" data-name="gini = 0.444" transform="translate(8.312 4.94)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">gini = 0.444</tspan></text>
+      <text id="samples_3-3" data-name="samples = 3" transform="translate(7.901 8.019)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">samples = 3</tspan></text>
+      <text id="value_2_1_0_" data-name="value = [2, 1, 0]" transform="translate(6.054 11.097)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">value = [2, 1, 0]</tspan></text>
+      <text id="class_Adelie-10" data-name="class = Adelie" transform="translate(6.773 14.176)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">class = Adelie</tspan></text>
+    </g>
+    <g id="edge21" transform="translate(182.144 -789.436)">
+      <path id="Trazado_825117" data-name="Trazado 825117" d="M906.5-341.907v5.255" transform="translate(-905.782 341.907)" fill="none" stroke="#000" stroke-width="1"/>
+      <path id="Trazado_825118" data-name="Trazado 825118" d="M904.437-316.021l-.718,2.052L903-316.021Z" transform="translate(-903 321.334)" stroke="#000" stroke-width="1"/>
+    </g>
+    <g id="node23" transform="translate(155.875 -756.105)">
+      <path id="Trazado_825119" data-name="Trazado 825119" d="M798.191-179.5H777.463A2.649,2.649,0,0,0,775-177.037v9.03a2.648,2.648,0,0,0,2.463,2.463h20.728a2.648,2.648,0,0,0,2.463-2.463v-9.03a2.648,2.648,0,0,0-2.463-2.463" transform="translate(-775 179.5)" fill="#39e581" stroke="#000" stroke-width="1"/>
+      <text id="gini_0.0-11" data-name="gini = 0.0" transform="translate(6.875 1.862)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">gini = 0.0</tspan></text>
+      <text id="samples_1-5" data-name="samples = 1" transform="translate(4.72 4.94)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">samples = 1</tspan></text>
+      <text id="value_0_1_0_3" data-name="value = [0, 1, 0]" transform="translate(2.873 8.019)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">value = [0, 1, 0]</tspan></text>
+      <text id="class_Chinstrap-7" data-name="class = Chinstrap" transform="translate(1.642 11.097)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">class = Chinstrap</tspan></text>
+    </g>
+    <g id="edge22" transform="translate(172.716 -765.013)">
+      <path id="Trazado_825120" data-name="Trazado 825120" d="M866.4-222.907l-4.172,7.074" transform="translate(-861.171 222.907)" fill="none" stroke="#000" stroke-width="1"/>
+      <path id="Trazado_825121" data-name="Trazado 825121" d="M858.721-189.329l-1.661,1.4.424-2.133Z" transform="translate(-857.06 196.8)" stroke="#000" stroke-width="1"/>
+    </g>
+    <g id="node24" transform="translate(185.223 -756.105)">
+      <path id="Trazado_825122" data-name="Trazado 825122" d="M938.728-179.5H920.463A2.648,2.648,0,0,0,918-177.037v9.03a2.648,2.648,0,0,0,2.463,2.463h18.266a2.648,2.648,0,0,0,2.463-2.463v-9.03a2.648,2.648,0,0,0-2.463-2.463" transform="translate(-918 179.5)" fill="#e58139" stroke="#000" stroke-width="1"/>
+      <text id="gini_0.0-12" data-name="gini = 0.0" transform="translate(5.644 1.862)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">gini = 0.0</tspan></text>
+      <text id="samples_2-3" data-name="samples = 2" transform="translate(3.489 4.94)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">samples = 2</tspan></text>
+      <text id="value_2_0_0_" data-name="value = [2, 0, 0]" transform="translate(1.642 8.019)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">value = [2, 0, 0]</tspan></text>
+      <text id="class_Adelie-11" data-name="class = Adelie" transform="translate(2.36 11.097)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">class = Adelie</tspan></text>
+    </g>
+    <g id="edge23" transform="translate(187.704 -765.013)">
+      <path id="Trazado_825123" data-name="Trazado 825123" d="M930.092-222.907l4.111,7.074" transform="translate(-930.092 222.907)" fill="none" stroke="#000" stroke-width="1"/>
+      <path id="Trazado_825124" data-name="Trazado 825124" d="M948.414-190.072l.41,2.135-1.652-1.413Z" transform="translate(-943.667 196.811)" stroke="#000" stroke-width="1"/>
+    </g>
+    <g id="node26" transform="translate(213.032 -806.489)">
+      <path id="Trazado_825125" data-name="Trazado 825125" d="M1084.7-425h-28.732a2.648,2.648,0,0,0-2.463,2.463v12.109a2.648,2.648,0,0,0,2.463,2.463H1084.7a2.649,2.649,0,0,0,2.463-2.463v-12.109A2.649,2.649,0,0,0,1084.7-425" transform="translate(-1053.5 425)" fill="#fff" stroke="#000" stroke-width="1"/>
+      <text id="bill_length_mm_48.65" data-name="bill_length_mm ≤ 48.65" transform="translate(1.642 1.862)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">bill_length_mm ≤ 48.65</tspan></text>
+      <text id="gini_0.5-2" data-name="gini = 0.5" transform="translate(10.877 4.94)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">gini = 0.5</tspan></text>
+      <text id="samples_10-2" data-name="samples = 10" transform="translate(7.901 8.019)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">samples = 10</tspan></text>
+      <text id="value_0_5_5_" data-name="value = [0, 5, 5]" transform="translate(6.875 11.097)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">value = [0, 5, 5]</tspan></text>
+      <text id="class_Chinstrap-8" data-name="class = Chinstrap" transform="translate(5.644 14.176)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">class = Chinstrap</tspan></text>
+    </g>
+    <g id="edge25" transform="translate(229.142 -813.858)">
+      <path id="Trazado_825126" data-name="Trazado 825126" d="M1135.5-460.907v5.255" transform="translate(-1134.782 460.907)" fill="none" stroke="#000" stroke-width="1"/>
+      <path id="Trazado_825127" data-name="Trazado 825127" d="M1133.437-435.021l-.718,2.052-.718-2.052Z" transform="translate(-1132 440.334)" stroke="#000" stroke-width="1"/>
+    </g>
+    <g id="node29" transform="translate(260.029 -806.489)">
+      <path id="Trazado_825128" data-name="Trazado 825128" d="M1311.643-425h-26.68a2.648,2.648,0,0,0-2.463,2.463v12.109a2.648,2.648,0,0,0,2.463,2.463h26.68a2.649,2.649,0,0,0,2.463-2.463v-12.109a2.649,2.649,0,0,0-2.463-2.463" transform="translate(-1282.5 425)" fill="#42e687" stroke="#000" stroke-width="1"/>
+      <text id="bill_depth_mm_21.1" data-name="bill_depth_mm ≤ 21.1" transform="translate(1.642 1.862)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">bill_depth_mm ≤ 21.1</tspan></text>
+      <text id="gini_0.083" data-name="gini = 0.083" transform="translate(8.107 4.94)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">gini = 0.083</tspan></text>
+      <text id="samples_46" data-name="samples = 46" transform="translate(6.875 8.019)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">samples = 46</tspan></text>
+      <text id="value_2_44_0_" data-name="value = [2, 44, 0]" transform="translate(5.028 11.097)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">value = [2, 44, 0]</tspan></text>
+      <text id="class_Chinstrap-9" data-name="class = Chinstrap" transform="translate(4.618 14.176)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">class = Chinstrap</tspan></text>
+    </g>
+    <g id="edge28" transform="translate(245.682 -813.926)">
+      <path id="Trazado_825129" data-name="Trazado 825129" d="M1212.59-461.235l12.437,6.5" transform="translate(-1212.59 461.235)" fill="none" stroke="#000" stroke-width="1"/>
+      <path id="Trazado_825130" data-name="Trazado 825130" d="M1272.455-432.571l1.486,1.587-2.151-.313Z" transform="translate(-1259.64 438.454)" stroke="#000" stroke-width="1"/>
+    </g>
+    <g id="node27" transform="translate(202.667 -780.527)">
+      <path id="Trazado_825131" data-name="Trazado 825131" d="M1026.191-298.5h-20.728a2.648,2.648,0,0,0-2.463,2.463v9.03a2.648,2.648,0,0,0,2.463,2.463h20.728a2.648,2.648,0,0,0,2.463-2.463v-9.03a2.648,2.648,0,0,0-2.463-2.463" transform="translate(-1003 298.5)" fill="#39e581" stroke="#000" stroke-width="1"/>
+      <text id="gini_0.0-13" data-name="gini = 0.0" transform="translate(6.875 1.862)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">gini = 0.0</tspan></text>
+      <text id="samples_5-2" data-name="samples = 5" transform="translate(4.72 4.94)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">samples = 5</tspan></text>
+      <text id="value_0_5_0_" data-name="value = [0, 5, 0]" transform="translate(2.873 8.019)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">value = [0, 5, 0]</tspan></text>
+      <text id="class_Chinstrap-10" data-name="class = Chinstrap" transform="translate(1.642 11.097)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">class = Chinstrap</tspan></text>
+    </g>
+    <g id="edge26" transform="translate(219.566 -789.436)">
+      <path id="Trazado_825132" data-name="Trazado 825132" d="M1094.822-341.907c-1.367,2.287-2.855,4.771-4.232,7.074" transform="translate(-1089.512 341.907)" fill="none" stroke="#000" stroke-width="1"/>
+      <path id="Trazado_825133" data-name="Trazado 825133" d="M1087.011-308.307l-1.671,1.392.437-2.13Z" transform="translate(-1085.34 315.789)" stroke="#000" stroke-width="1"/>
+    </g>
+    <g id="node28" transform="translate(232.015 -780.527)">
+      <path id="Trazado_825134" data-name="Trazado 825134" d="M1166.728-298.5h-18.266a2.648,2.648,0,0,0-2.463,2.463v9.03a2.648,2.648,0,0,0,2.463,2.463h18.266a2.648,2.648,0,0,0,2.463-2.463v-9.03a2.648,2.648,0,0,0-2.463-2.463" transform="translate(-1146 298.5)" fill="#8139e5" stroke="#000" stroke-width="1"/>
+      <text id="gini_0.0-14" data-name="gini = 0.0" transform="translate(5.644 1.862)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">gini = 0.0</tspan></text>
+      <text id="samples_5-3" data-name="samples = 5" transform="translate(3.489 4.94)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">samples = 5</tspan></text>
+      <text id="value_0_0_5_" data-name="value = [0, 0, 5]" transform="translate(1.642 8.019)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">value = [0, 0, 5]</tspan></text>
+      <text id="class_Gentoo-8" data-name="class = Gentoo" transform="translate(1.642 11.097)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">class = Gentoo</tspan></text>
+    </g>
+    <g id="edge27" transform="translate(234.632 -789.436)">
+      <path id="Trazado_825135" data-name="Trazado 825135" d="M1158.75-341.907l4.049,7.074" transform="translate(-1158.75 341.907)" fill="none" stroke="#000" stroke-width="1"/>
+      <path id="Trazado_825136" data-name="Trazado 825136" d="M1176.746-309.084l.4,2.138-1.644-1.424Z" transform="translate(-1172.062 315.82)" stroke="#000" stroke-width="1"/>
+    </g>
+    <g id="node30" transform="translate(259.003 -782.067)">
+      <path id="Trazado_825137" data-name="Trazado 825137" d="M1308.7-306h-28.732a2.649,2.649,0,0,0-2.463,2.463v12.109a2.649,2.649,0,0,0,2.463,2.463H1308.7a2.649,2.649,0,0,0,2.463-2.463v-12.109A2.649,2.649,0,0,0,1308.7-306" transform="translate(-1277.5 306)" fill="#3de684" stroke="#000" stroke-width="1"/>
+      <text id="bill_length_mm_45.65" data-name="bill_length_mm ≤ 45.65" transform="translate(1.642 1.862)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">bill_length_mm ≤ 45.65</tspan></text>
+      <text id="gini_0.043" data-name="gini = 0.043" transform="translate(9.133 4.94)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">gini = 0.043</tspan></text>
+      <text id="samples_45" data-name="samples = 45" transform="translate(7.901 8.019)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">samples = 45</tspan></text>
+      <text id="value_1_44_0_" data-name="value = [1, 44, 0]" transform="translate(6.054 11.097)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">value = [1, 44, 0]</tspan></text>
+      <text id="class_Chinstrap-11" data-name="class = Chinstrap" transform="translate(5.644 14.176)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">class = Chinstrap</tspan></text>
+    </g>
+    <g id="edge29" transform="translate(275.114 -789.436)">
+      <path id="Trazado_825138" data-name="Trazado 825138" d="M1359.5-341.907v5.255" transform="translate(-1358.782 341.907)" fill="none" stroke="#000" stroke-width="1"/>
+      <path id="Trazado_825139" data-name="Trazado 825139" d="M1357.437-316.021l-.718,2.052-.718-2.052Z" transform="translate(-1356 321.334)" stroke="#000" stroke-width="1"/>
+    </g>
+    <g id="node35" transform="translate(296.458 -780.527)">
+      <path id="Trazado_825140" data-name="Trazado 825140" d="M1480.728-298.5h-18.266a2.648,2.648,0,0,0-2.463,2.463v9.03a2.648,2.648,0,0,0,2.463,2.463h18.266a2.648,2.648,0,0,0,2.463-2.463v-9.03a2.648,2.648,0,0,0-2.463-2.463" transform="translate(-1460 298.5)" fill="#e58139" stroke="#000" stroke-width="1"/>
+      <text id="gini_0.0-15" data-name="gini = 0.0" transform="translate(5.644 1.862)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">gini = 0.0</tspan></text>
+      <text id="samples_1-6" data-name="samples = 1" transform="translate(3.489 4.94)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">samples = 1</tspan></text>
+      <text id="value_1_0_0_" data-name="value = [1, 0, 0]" transform="translate(1.642 8.019)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">value = [1, 0, 0]</tspan></text>
+      <text id="class_Adelie-12" data-name="class = Adelie" transform="translate(2.36 11.097)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">class = Adelie</tspan></text>
+    </g>
+    <g id="edge34" transform="translate(287.011 -789.436)">
+      <path id="Trazado_825141" data-name="Trazado 825141" d="M1413.97-341.907l10.223,7.617" transform="translate(-1413.97 341.907)" fill="none" stroke="#000" stroke-width="1"/>
+      <path id="Trazado_825142" data-name="Trazado 825142" d="M1462.74-307.449l1.215,1.8-2.075-.65Z" transform="translate(-1452.047 314.521)" stroke="#000" stroke-width="1"/>
+    </g>
+    <g id="node31" transform="translate(242.585 -757.644)">
+      <path id="Trazado_825143" data-name="Trazado 825143" d="M1228.285-187h-28.322a2.648,2.648,0,0,0-2.463,2.463v12.109a2.648,2.648,0,0,0,2.463,2.463h28.322a2.648,2.648,0,0,0,2.463-2.463v-12.109a2.648,2.648,0,0,0-2.463-2.463" transform="translate(-1197.5 187)" fill="#9cf2c0" stroke="#000" stroke-width="1"/>
+      <text id="bill_depth_mm_19.85" data-name="bill_depth_mm ≤ 19.85" transform="translate(1.642 1.862)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">bill_depth_mm ≤ 19.85</tspan></text>
+      <text id="gini_0.444-3" data-name="gini = 0.444" transform="translate(8.928 4.94)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">gini = 0.444</tspan></text>
+      <text id="samples_3-4" data-name="samples = 3" transform="translate(8.517 8.019)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">samples = 3</tspan></text>
+      <text id="value_1_2_0_" data-name="value = [1, 2, 0]" transform="translate(6.67 11.097)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">value = [1, 2, 0]</tspan></text>
+      <text id="class_Chinstrap-12" data-name="class = Chinstrap" transform="translate(5.439 14.176)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">class = Chinstrap</tspan></text>
+    </g>
+    <g id="edge30" transform="translate(264.965 -765.013)">
+      <path id="Trazado_825144" data-name="Trazado 825144" d="M1316.228-222.907c-1.264,1.825-2.615,3.776-3.918,5.659" transform="translate(-1311.128 222.907)" fill="none" stroke="#000" stroke-width="1"/>
+      <path id="Trazado_825145" data-name="Trazado 825145" d="M1308.309-196.417l-1.759,1.279.579-2.1Z" transform="translate(-1306.55 202.504)" stroke="#000" stroke-width="1"/>
+    </g>
+    <g id="node34" transform="translate(279.629 -756.105)">
+      <path id="Trazado_825146" data-name="Trazado 825146" d="M1401.191-179.5h-20.728a2.648,2.648,0,0,0-2.463,2.463v9.03a2.648,2.648,0,0,0,2.463,2.463h20.728a2.648,2.648,0,0,0,2.463-2.463v-9.03a2.648,2.648,0,0,0-2.463-2.463" transform="translate(-1378 179.5)" fill="#39e581" stroke="#000" stroke-width="1"/>
+      <text id="gini_0.0-16" data-name="gini = 0.0" transform="translate(6.875 1.862)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">gini = 0.0</tspan></text>
+      <text id="samples_42" data-name="samples = 42" transform="translate(3.899 4.94)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">samples = 42</tspan></text>
+      <text id="value_0_42_0_" data-name="value = [0, 42, 0]" transform="translate(2.052 8.019)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">value = [0, 42, 0]</tspan></text>
+      <text id="class_Chinstrap-13" data-name="class = Chinstrap" transform="translate(1.642 11.097)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">class = Chinstrap</tspan></text>
+    </g>
+    <g id="edge33" transform="translate(281.599 -765.013)">
+      <path id="Trazado_825147" data-name="Trazado 825147" d="M1387.6-222.907c1.6,2.31,3.337,4.821,4.946,7.142" transform="translate(-1387.6 222.907)" fill="none" stroke="#000" stroke-width="1"/>
+      <path id="Trazado_825148" data-name="Trazado 825148" d="M1410.15-189.881l.579,2.1-1.759-1.279Z" transform="translate(-1404.584 196.659)" stroke="#000" stroke-width="1"/>
+    </g>
+    <g id="node32" transform="translate(232.221 -733.222)">
+      <path id="Trazado_825149" data-name="Trazado 825149" d="M1170.191-68h-20.728A2.648,2.648,0,0,0,1147-65.537v9.03a2.648,2.648,0,0,0,2.463,2.463h20.728a2.648,2.648,0,0,0,2.463-2.463v-9.03A2.648,2.648,0,0,0,1170.191-68" transform="translate(-1147 68)" fill="#39e581" stroke="#000" stroke-width="1"/>
+      <text id="gini_0.0-17" data-name="gini = 0.0" transform="translate(6.875 1.862)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">gini = 0.0</tspan></text>
+      <text id="samples_2-4" data-name="samples = 2" transform="translate(4.72 4.94)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">samples = 2</tspan></text>
+      <text id="value_0_2_0_2" data-name="value = [0, 2, 0]" transform="translate(2.873 8.019)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">value = [0, 2, 0]</tspan></text>
+      <text id="class_Chinstrap-14" data-name="class = Chinstrap" transform="translate(1.642 11.097)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">class = Chinstrap</tspan></text>
+    </g>
+    <g id="edge31" transform="translate(249.353 -740.554)">
+      <path id="Trazado_825150" data-name="Trazado 825150" d="M1239.378-103.726c-1.133,1.8-2.331,3.7-3.468,5.5" transform="translate(-1234.796 103.726)" fill="none" stroke="#000" stroke-width="1"/>
+      <path id="Trazado_825151" data-name="Trazado 825151" d="M1232.183-77.86l-1.7,1.353.486-2.119Z" transform="translate(-1230.48 83.777)" stroke="#000" stroke-width="1"/>
+    </g>
+    <g id="node33" transform="translate(261.569 -733.222)">
+      <path id="Trazado_825152" data-name="Trazado 825152" d="M1310.728-68h-18.266A2.648,2.648,0,0,0,1290-65.537v9.03a2.648,2.648,0,0,0,2.463,2.463h18.266a2.648,2.648,0,0,0,2.463-2.463v-9.03A2.648,2.648,0,0,0,1310.728-68" transform="translate(-1290 68)" fill="#e58139" stroke="#000" stroke-width="1"/>
+      <text id="gini_0.0-18" data-name="gini = 0.0" transform="translate(5.644 1.862)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">gini = 0.0</tspan></text>
+      <text id="samples_1-7" data-name="samples = 1" transform="translate(3.489 4.94)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">samples = 1</tspan></text>
+      <text id="value_1_0_0_2" data-name="value = [1, 0, 0]" transform="translate(1.642 8.019)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">value = [1, 0, 0]</tspan></text>
+      <text id="class_Adelie-13" data-name="class = Adelie" transform="translate(2.36 11.097)" font-size="1" font-family="ArialMT, Arial"><tspan x="0" y="0">class = Adelie</tspan></text>
+    </g>
+    <g id="edge32" transform="translate(264.405 -740.554)">
+      <path id="Trazado_825153" data-name="Trazado 825153" d="M1303.82-103.726c1.116,1.8,2.3,3.7,3.419,5.5" transform="translate(-1303.82 103.726)" fill="none" stroke="#000" stroke-width="1"/>
+      <path id="Trazado_825154" data-name="Trazado 825154" d="M1318.791-78.641l.472,2.122-1.693-1.365Z" transform="translate(-1314.748 83.789)" stroke="#000" stroke-width="1"/>
+    </g>
+  </g>
+</svg>
